@@ -1,0 +1,42 @@
+Running main() from /var/tmp/googletest/googletest/src/gtest_main.cc
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from PrachValidationTest
+[ RUN      ] PrachValidationTest.NullPointerValidation
+[       OK ] PrachValidationTest.NullPointerValidation (18 ms)
+[ RUN      ] PrachValidationTest.ValidParameters
+[       OK ] PrachValidationTest.ValidParameters (0 ms)
+[ RUN      ] PrachValidationTest.CellParameterValidation
+[       OK ] PrachValidationTest.CellParameterValidation (0 ms)
+[ RUN      ] PrachValidationTest.UnsupportedPreambleFormats
+[       OK ] PrachValidationTest.UnsupportedPreambleFormats (0 ms)
+[ RUN      ] PrachValidationTest.OccasionParameterValidation
+[       OK ] PrachValidationTest.OccasionParameterValidation (0 ms)
+[ RUN      ] PrachValidationTest.OccasionIndexBounds
+[       OK ] PrachValidationTest.OccasionIndexBounds (0 ms)
+[ RUN      ] PrachValidationTest.TotalOccasionsExceedMax
+[       OK ] PrachValidationTest.TotalOccasionsExceedMax (0 ms)
+[ RUN      ] PrachValidationTest.EdgeCases
+[       OK ] PrachValidationTest.EdgeCases (0 ms)
+[ RUN      ] PrachValidationTest.FRDuplexCombinations
+[       OK ] PrachValidationTest.FRDuplexCombinations (0 ms)
+[----------] 9 tests from PrachValidationTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (18 ms total)
+[  PASSED  ] 9 tests.
+23:44:18.281435 prach_rx.cpp:648 ERR[320   ] [AERIAL_CUDA_API_EVENT] [CUPHY.PRACH_RX] validateStaticParams Invalid input: pStatPrms is null
+23:44:18.300059 prach_rx.cpp:654 ERR[320   ] [AERIAL_CUDA_API_EVENT] [CUPHY.PRACH_RX] validateStaticParams Invalid input: pCellPrms is null
+23:44:18.300060 prach_rx.cpp:660 ERR[320   ] [AERIAL_CUDA_API_EVENT] [CUPHY.PRACH_RX] validateStaticParams Invalid input: pOccaPrms is null
+23:44:18.300119 prach_rx.cpp:691 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] restrictedSet (1) is not supported (must be 0)
+23:44:18.300120 prach_rx.cpp:699 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] mu (2) is not supported (must be 0 or 1)
+23:44:18.300127 prach_rx.cpp:712 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] preambleFormat 1 is not supported
+23:44:18.300127 prach_rx.cpp:712 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] preambleFormat 1 is not supported
+23:44:18.300127 prach_rx.cpp:712 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] preambleFormat 1 is not supported
+23:44:18.300133 prach_rx.cpp:736 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] prachZeroCorrConf (16) exceeds maximum value (15)
+23:44:18.300134 prach_rx.cpp:746 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] prachRootSequenceIndex (838) exceeds maximum for L_RA (838)
+23:44:18.300134 prach_rx.cpp:746 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] prachRootSequenceIndex (138) exceeds maximum for L_RA (138)
+23:44:18.300139 prach_rx.cpp:725 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] Occasion index 2 exceeds nMaxOccasions 1
+23:44:18.300146 prach_rx.cpp:677 ERR[320   ] [AERIAL_CUDA_API_EVENT] [CUPHY.PRACH_RX] Cell occasions 2 greater than nMaxOccasions 1
+23:44:18.300151 prach_rx.cpp:677 ERR[320   ] [AERIAL_CUDA_API_EVENT] [CUPHY.PRACH_RX] Cell occasions 1 greater than nMaxOccasions 0
+23:44:18.300157 prach_rx.cpp:712 ERR[320   ] [AERIAL_CUPHY_EVENT] [CUPHY.PRACH_RX] preambleFormat 4 is not supported

@@ -1,0 +1,29 @@
+# Never commit NVIDIA / third-party payloads
+*.h5
+*.zip
+*.tar
+*.tgz
+*.tar.gz
+*.whl
+*.so
+*.so.*
+*.a
+*.o
+src-*/
+build*/
+tvgen/
+GPU_test_input/
+MATLAB/
+MATLAB_Runtime*/
+mcr/
+# Credentials
+.env
+*.key
+*.pem
+*ngc*key*
+.docker/config.json
+# Local run output
+logs/
+!results/logs/
+__pycache__/
+*.pyc

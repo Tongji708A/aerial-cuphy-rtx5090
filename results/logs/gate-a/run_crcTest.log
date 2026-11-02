@@ -1,0 +1,58 @@
+[==========] Running 9 tests from 6 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC_GPU_UPLINK_PUSCH
+[ RUN      ] CRC_GPU_UPLINK_PUSCH.24B_24A
+[       OK ] CRC_GPU_UPLINK_PUSCH.24B_24A (478 ms)
+[----------] 1 test from CRC_GPU_UPLINK_PUSCH (478 ms total)
+
+[----------] 1 test from CRC_SINGLE_CB_GPU_UPLINK_PUSCH
+[ RUN      ] CRC_SINGLE_CB_GPU_UPLINK_PUSCH.24A
+[       OK ] CRC_SINGLE_CB_GPU_UPLINK_PUSCH.24A (10 ms)
+[----------] 1 test from CRC_SINGLE_CB_GPU_UPLINK_PUSCH (10 ms total)
+
+[----------] 1 test from CRC_SINGLE_SMALL_CB_GPU_UPLINK_PUSCH
+[ RUN      ] CRC_SINGLE_SMALL_CB_GPU_UPLINK_PUSCH.16
+[       OK ] CRC_SINGLE_SMALL_CB_GPU_UPLINK_PUSCH.16 (4 ms)
+[----------] 1 test from CRC_SINGLE_SMALL_CB_GPU_UPLINK_PUSCH (4 ms total)
+
+[----------] 1 test from CRC_GPU_DOWNLINK_PDSCH
+[ RUN      ] CRC_GPU_DOWNLINK_PDSCH.24B_24A
+[       OK ] CRC_GPU_DOWNLINK_PDSCH.24B_24A (0 ms)
+[----------] 1 test from CRC_GPU_DOWNLINK_PDSCH (0 ms total)
+
+[----------] 4 tests from CRCTest
+[ RUN      ] CRCTest.launchBoundaryCondition
+nTBs > MAX_N_TBS_PER_CELL_GROUP_SUPPORTED check failed
+maxTBByteSize > MAX_BYTES_PER_TRANSPORT_BLOCK check failed
+[       OK ] CRCTest.launchBoundaryCondition (35 ms)
+[ RUN      ] CRCTest.UplinkPuschWithTiming
+[       OK ] CRCTest.UplinkPuschWithTiming (91 ms)
+[ RUN      ] CRCTest.PrepareCRCEncodeSetup
+[       OK ] CRCTest.PrepareCRCEncodeSetup (0 ms)
+[ RUN      ] CRCTest.SetupCrcEncodeBoundaryConditions
+[       OK ] CRCTest.SetupCrcEncodeBoundaryConditions (1 ms)
+[----------] 4 tests from CRCTest (128 ms total)
+
+[----------] 1 test from PuschRxCrcDecodeTest
+[ RUN      ] PuschRxCrcDecodeTest.SetupFunction
+[       OK ] PuschRxCrcDecodeTest.SetupFunction (0 ms)
+[----------] 1 test from PuschRxCrcDecodeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 6 test suites ran. (624 ms total)
+[  PASSED  ] 9 tests.
+23:44:05.080587 crc.cu:258       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] launch: Maximum number of Transport Blocks supported is 192
+23:44:05.115317 crc.cu:270       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] launch: Transport Block size = 159774. Maximum Transport Block size in bytes supported is 159773
+23:44:05.196744 crc.cu:356       INF[209   ] [CUPHY.PUSCH_RX] launch: CB KERNEL GRID_SIZE_X 6
+23:44:05.196762 crc.cu:358       INF[209   ] [CUPHY.PUSCH_RX] launch: TB KERNEL GRID_SIZE_X 12
+23:44:05.196763 crc.cu:360       INF[209   ] [CUPHY.PUSCH_RX] launch: Kernel 1: Code blocks CRC and TB assembly(24-bit crc): inf us
+23:44:05.196764 crc.cu:363       INF[209   ] [CUPHY.PUSCH_RX] launch: Kernel 2: TB CRC(24-bit crc): inf us
+23:44:05.207460 crc.cu:748       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: d_tbCRCs is equal to nullptr
+23:44:05.207626 crc.cu:754       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: d_inputTransportBlocks is equal to nullptr
+23:44:05.207769 crc.cu:760       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: d_codeBlocks is equal to nullptr
+23:44:05.207901 crc.cu:766       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: d_tbPrmsArray is equal to nullptr
+23:44:05.208060 crc.cu:772       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: cpu_desc is equal to nullptr
+23:44:05.208224 crc.cu:778       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: gpu_desc is equal to nullptr
+23:44:05.208364 crc.cu:784       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: Maximum number of Transport Blocks supported is 192
+23:44:05.208493 crc.cu:790       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: Maximum number of Code Blocks per Transport Block supported is 152
+23:44:05.208649 crc.cu:796       ERR[209   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: Transport Block size = 159774. Maximum Transport Block size in bytes supported is 159773

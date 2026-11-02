@@ -1,0 +1,101 @@
+[==========] Running 9 tests from 6 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC_GPU_UPLINK_PUSCH
+[ RUN      ] CRC_GPU_UPLINK_PUSCH.24B_24A
+CB CRC NOT EQUAL (6) a: 92a8f9 b: 0
+CB CRC NOT EQUAL (7) a: df67f9 b: 0
+TB DATANOT EQUAL (1590) a: 0 b: ecececec
+TB DATANOT EQUAL (1591) a: 0 b: ecececec
+TB DATANOT EQUAL (1592) a: 0 b: ecececec
+TB DATANOT EQUAL (1593) a: 0 b: ecececec
+TB DATANOT EQUAL (1594) a: 0 b: ecececec
+TB DATANOT EQUAL (1595) a: 0 b: ecececec
+TB DATANOT EQUAL (1596) a: 0 b: ecececec
+TB DATANOT EQUAL (1597) a: 0 b: ecececec
+TB DATANOT EQUAL (1598) a: 0 b: ecececec
+TB DATANOT EQUAL (1599) a: 0 b: ecececec
+TB DATANOT EQUAL (1600) a: 0 b: ecececec
+TB DATANOT EQUAL (1601) a: 0 b: ecececec
+TB DATANOT EQUAL (1602) a: 0 b: ecececec
+TB DATANOT EQUAL (1603) a: 0 b: ecececec
+TB DATANOT EQUAL (1604) a: 0 b: ecececec
+TB DATANOT EQUAL (1605) a: 0 b: ecececec
+TB DATANOT EQUAL (1606) a: 0 b: ecececec
+TB DATANOT EQUAL (1607) a: 0 b: ecececec
+TB DATANOT EQUAL (1608) a: 0 b: ecececec
+TB DATANOT EQUAL (1609) a: 0 b: ecececec
+TB DATANOT EQUAL (1610) a: 0 b: ecececec
+TB DATANOT EQUAL (1611) a: 0 b: ecececec
+TB DATANOT EQUAL (1612) a: 0 b: ecececec
+TB DATANOT EQUAL (1613) a: 0 b: ecececec
+TB DATANOT EQUAL (1614) a: 0 b: ecececec
+TB DATANOT EQUAL (1615) a: 0 b: ecececec
+TB DATANOT EQUAL (1616) a: 0 b: ecececec
+TB DATANOT EQUAL (1617) a: 0 b: ecececec
+TB DATANOT EQUAL (1618) a: 0 b: ecececec
+TB DATANOT EQUAL (1619) a: 0 b: ecececec
+TB DATANOT EQUAL (1620) a: 0 b: ecececec
+TB DATANOT EQUAL (1621) a: 0 b: ecececec
+TB DATANOT EQUAL (1622) a: 0 b: ecececec
+TB DATANOT EQUAL (1623) a: 0 b: ecececec
+TB DATANOT EQUAL (1624) a: 0 b: ecececec
+TB DATANOT EQUAL (1625) a: 0 b: ecececec
+TB DATANOT EQUAL (1626) a: 0 b: ecececec
+TB DATANOT EQUAL (1627) a: 0 b: ecececec
+TB DATANOT EQUAL (1628) a: 0 b: ecececec
+TB DATANOT EQUAL (1629) a: 0 b: ecececec
+TB DATANOT EQUAL (1630) a: 0 b: ecececec
+TB DATANOT EQUAL (1631) a: 0 b: ecececec
+TB DATANOT EQUAL (1632) a: 0 b: ecececec
+TB DATANOT EQUAL (1633) a: 0 b: ecececec
+TB DATANOT EQUAL (1634) a: 0 b: ecececec
+TB DATANOT EQUAL (1635) a: 0 b: ecececec
+TB DATANOT EQUAL (1636) a: 0 b: ecececec
+TB DATANOT EQUAL (1637) a: 0 b: ecececec
+TB DATANOT EQUAL (1638) a: 0 b: ecececec
+TB DATANOT EQUAL (1639) a: 0 b: ecececec
+TB DATANOT EQUAL (1640) a: 0 b: ecececec
+TB DATANOT EQUAL (1641) a: 0 b: ecececec
+TB DATANOT EQUAL (1642) a: 0 b: ecececec
+TB DATANOT EQUAL (1643) a: 0 b: ecececec
+... [trimmed by OpenLab: ~20 MB of per-word 'NOT EQUAL' mismatch lines removed] ...
+22:07:55.793842 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[161] CRC not equal to 0: 12524595
+22:07:55.793842 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[162] CRC not equal to 0: 12739216
+22:07:55.793843 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[163] CRC not equal to 0: 7801049
+22:07:55.793843 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[164] CRC not equal to 0: 16463043
+22:07:55.793843 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[165] CRC not equal to 0: 4352570
+22:07:55.793843 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[166] CRC not equal to 0: 11776588
+22:07:55.793843 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[167] CRC not equal to 0: 12281340
+22:07:55.793843 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[168] CRC not equal to 0: 10245416
+22:07:55.793843 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[169] CRC not equal to 0: 6694582
+22:07:55.793843 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[170] CRC not equal to 0: 8024491
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[171] CRC not equal to 0: 12933388
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[172] CRC not equal to 0: 5284213
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[173] CRC not equal to 0: 16398622
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[174] CRC not equal to 0: 8846463
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[175] CRC not equal to 0: 11305064
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[176] CRC not equal to 0: 11659714
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[177] CRC not equal to 0: 14510189
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[178] CRC not equal to 0: 4580356
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[179] CRC not equal to 0: 15802198
+22:07:55.793844 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[180] CRC not equal to 0: 13756231
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[181] CRC not equal to 0: 6155400
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[182] CRC not equal to 0: 6659476
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[183] CRC not equal to 0: 12490642
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[184] CRC not equal to 0: 16612267
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[185] CRC not equal to 0: 11015350
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[186] CRC not equal to 0: 5536177
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[187] CRC not equal to 0: 15132846
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[188] CRC not equal to 0: 6613815
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[189] CRC not equal to 0: 1700893
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[190] CRC not equal to 0: 4847258
+22:07:55.793845 crcTest.cu:264   ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PUSCH_RX] TB[191] CRC not equal to 0: 3898581
+22:07:55.794373 crc.cu:744       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: d_tbCRCs is equal to nullptr
+22:07:55.794461 crc.cu:750       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: d_inputTransportBlocks is equal to nullptr
+22:07:55.794556 crc.cu:756       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: d_codeBlocks is equal to nullptr
+22:07:55.794645 crc.cu:762       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: d_tbPrmsArray is equal to nullptr
+22:07:55.794729 crc.cu:768       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: cpu_desc is equal to nullptr
+22:07:55.794813 crc.cu:774       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: gpu_desc is equal to nullptr
+22:07:55.794897 crc.cu:780       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: Maximum number of Transport Blocks supported is 192
+22:07:55.794982 crc.cu:786       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: Maximum number of Code Blocks per Transport Block supported is 152
+22:07:55.795065 crc.cu:792       ERR[191   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDSCH_TX] cuphySetupCrcEncode: Transport Block size = 159774. Maximum Transport Block size in bytes supported is 159773

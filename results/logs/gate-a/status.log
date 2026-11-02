@@ -1,0 +1,25 @@
+2026-10-31T23:43:25+00:00 START
+2026-10-31T23:43:54+00:00 BUILD rc=0
+2026-10-31T23:44:30+00:00 SMOKE rc=0
+     65 sm_120
+test_elementwise	PASS	rc=0 passed=6 failed=0 skipped=0
+test_fill	PASS	rc=0 passed=2 failed=0 skipped=0
+test_tile	PASS	rc=0 passed=5 failed=0 skipped=1
+test_rng	PASS	rc=0 passed=5 failed=0 skipped=0
+test_reduction	PASS	rc=0 passed=8 failed=0 skipped=0
+test_convert	PASS	rc=0 passed=10 failed=0 skipped=0
+crcTest	PASS	rc=0 passed=9 failed=0 skipped=0
+test_polar_encoder	PASS	rc=0 passed=18 failed=0 skipped=1
+test_polar_decoder	PASS	rc=0 passed=12 failed=0 skipped=0
+testModulationMapper	PASS	rc=0 passed=18 failed=0 skipped=0
+tensor_desc_tests	PASS	rc=0 passed=8 failed=0 skipped=0
+cuphy_api_tests	PASS	rc=0 passed=9 failed=0 skipped=0
+cuphy_hpp_tests	PASS	rc=0 passed=12 failed=0 skipped=0
+test_ldpc_internal_rc	PASS	rc=0 passed=5 failed=0 skipped=0
+tile_ub rc=139
+tile_memcheck rc=0
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] Tile.InternalError
+crc_memcheck rc=0
+[  PASSED  ] 1 test.
+2026-10-31T23:44:30+00:00 GATEA_V3_DONE

@@ -1,0 +1,9 @@
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+02:47:02.099570 CON 72 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:47:02.101570 CON 73 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 5
+02:47:02.134245 CON 72 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+02:47:02.134729 CON 72 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8
+02:47:02.135210 WRN 72 0 [TESTBENCH] Warning! For F13 mode (u = 4) the number of slots in YAML must be a multiple of four
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+timeout: the monitored command dumped core

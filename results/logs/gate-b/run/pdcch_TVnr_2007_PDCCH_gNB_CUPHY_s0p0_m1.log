@@ -1,0 +1,21 @@
+02:41:00.714306 CON 219 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:41:00.717564 CON 220 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 4
+02:41:00.751858 CON 219 0 [NVLOG.CPP] Output log file path /tmp/pdcch_tx_multicell.log
+number of cells: 1
+slot: 0
+    channel: PDCCH
+        file: /work/tvgen/GPU_test_input/TVnr_2007_PDCCH_gNB_CUPHY_s0p0.h5
+02:41:01.515345 CON 219 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 1.830 MiB for cuPHY PDCCH channel object (0x51f5960).
+02:41:01.515365 CON 219 0 [CUPHY.PDCCH_TX] 
+02:41:01.515366 CON 219 0 [CUPHY.PDCCH_TX] Timing 1 PDCCH DL pipeline(s). 
+02:41:01.515366 CON 219 0 [CUPHY.PDCCH_TX] 
+02:41:01.515366 CON 219 0 [CUPHY.PDCCH_TX] - NB: Allocations, setup processing not included.
+02:41:01.515366 CON 219 0 [CUPHY.PDCCH_TX] 
+02:41:01.535916 CON 219 0 [CUPHY.PDCCH_TX] ====> TV /work/tvgen/GPU_test_input/TVnr_2007_PDCCH_gNB_CUPHY_s0p0.h5: Test PASS
+02:41:01.576629 CON 219 0 [CUPHY.PDCCH_TX] Slot # 0, PDCCH pipeline(s) CPU Time: 8.14 us total (summed over 1 PDCCH objects, avg. over 5 iterations)
+02:41:01.576630 CON 219 0 [CUPHY.PDCCH_TX] --> Slot # 0: CPU-Run 8.14 us (min 3.33 us, max 16.78 us), CPU-Setup 0.00 us (min 0.00 us, max 0.00 us)
+02:41:01.576631 CON 219 0 [CUPHY.PDCCH_TX] Slot # 0, PDCCH pipeline(s) GPU-run only: 13.05 us (avg. over 5 iterations) in Graphs mode.
+02:41:01.576632 CON 219 0 [CUPHY.PDCCH_TX] --> Cell # 0 : 11.42 us (avg over 5 iterations)
+02:41:01.586672 CON 219 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [cuphy_ex_pdcch_] thread on core 2, last file path is /tmp/pdcch_tx_multicell.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

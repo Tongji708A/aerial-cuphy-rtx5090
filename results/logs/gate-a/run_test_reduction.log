@@ -1,0 +1,24 @@
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from Reduction
+[ RUN      ] Reduction.Sum
+[       OK ] Reduction.Sum (806 ms)
+[ RUN      ] Reduction.Sum_Bits
+[       OK ] Reduction.Sum_Bits (3 ms)
+[ RUN      ] Reduction.Sum_Bits_Partial_Word
+[       OK ] Reduction.Sum_Bits_Partial_Word (3 ms)
+[ RUN      ] Reduction.ValidationExtended
+[       OK ] Reduction.ValidationExtended (6 ms)
+[ RUN      ] Reduction.MinMaxValidation
+[       OK ] Reduction.MinMaxValidation (6 ms)
+[ RUN      ] Reduction.VoidTypeValidation
+[       OK ] Reduction.VoidTypeValidation (4 ms)
+[ RUN      ] Reduction.InvalidReductionOp
+[       OK ] Reduction.InvalidReductionOp (4 ms)
+[ RUN      ] Reduction.SupportedTypeCombinations
+[       OK ] Reduction.SupportedTypeCombinations (6 ms)
+[----------] 8 tests from Reduction (843 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (843 ms total)
+[  PASSED  ] 8 tests.

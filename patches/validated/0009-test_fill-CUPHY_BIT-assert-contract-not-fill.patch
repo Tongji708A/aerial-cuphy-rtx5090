@@ -1,0 +1,26 @@
+--- a/cuPHY/test/fill/test_fill.cpp
++++ b/cuPHY/test/fill/test_fill.cpp
+@@ -191,11 +191,18 @@
+                                                              cuphy::dim_all(),
+                                                              cuphy::dim_all(),
+                                                              cuphy::dim_all()));
+-    do_fill_index_group_test<CUPHY_BIT>(std::array<int, 4>({32, 16, 1, 1}),
+-                                          cuphy::index_group(cuphy::index_range(16, 25),
+-                                                             cuphy::dim_all(),
+-                                                             cuphy::dim_all(),
+-                                                             cuphy::dim_all()));
++    // OpenLab 0009: upstream filled a CUPHY_BIT subset starting at bit 16. That can never
++    // pass on any GPU: tensor_ref::subset() rejects non-word-aligned CUPHY_BIT subsets, and
++    // cuphy_i::tensor_fill() has no CUPHY_BIT kernel (CUPHY_STATUS_UNSUPPORTED_TYPE).
++    // Assert both documented behaviours instead of expecting a fill.
++    {
++        const std::array<int, 4> dims({64, 16, 1, 1});
++        cuphy::typed_tensor<CUPHY_BIT, cuphy::pinned_alloc> tb(cuphy::tensor_layout(dims.size(), dims.data(), nullptr));
++        EXPECT_THROW(tb.subset(cuphy::index_group(cuphy::index_range(16, 25), cuphy::dim_all(), cuphy::dim_all(), cuphy::dim_all())),
++                     std::runtime_error);
++        auto s = tb.subset(cuphy::index_group(cuphy::index_range(32, 41), cuphy::dim_all(), cuphy::dim_all(), cuphy::dim_all()));
++        EXPECT_THROW(cuphy::tensor_fill(s, static_cast<uint32_t>(1)), std::exception);
++    }
+ }
+ 
+ 

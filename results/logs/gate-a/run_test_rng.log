@@ -1,0 +1,18 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from RNG
+[ RUN      ] RNG.Normal
+[       OK ] RNG.Normal (908 ms)
+[ RUN      ] RNG.Uniform
+[       OK ] RNG.Uniform (82 ms)
+[ RUN      ] RNG.Bits
+[       OK ] RNG.Bits (1 ms)
+[ RUN      ] RNG.ComplexNormal
+[       OK ] RNG.ComplexNormal (97 ms)
+[ RUN      ] RNG.ComplexUniform
+[       OK ] RNG.ComplexUniform (152 ms)
+[----------] 5 tests from RNG (1243 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (1243 ms total)
+[  PASSED  ] 5 tests.

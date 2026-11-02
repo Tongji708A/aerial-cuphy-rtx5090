@@ -1,0 +1,13 @@
+========= COMPUTE-SANITIZER
+Note: Google Test filter = CRC_GPU_UPLINK_PUSCH.*
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC_GPU_UPLINK_PUSCH
+[ RUN      ] CRC_GPU_UPLINK_PUSCH.24B_24A
+[       OK ] CRC_GPU_UPLINK_PUSCH.24B_24A (440 ms)
+[----------] 1 test from CRC_GPU_UPLINK_PUSCH (440 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (440 ms total)
+[  PASSED  ] 1 test.
+========= ERROR SUMMARY: 0 errors

@@ -1,0 +1,25 @@
+02:39:41.186778 CON 279 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:39:41.189562 CON 280 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 5
+02:39:41.225046 CON 279 0 [NVLOG.CPP] Output log file path /tmp/pdsch_tx.log
+02:39:42.002099 CON 279 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 0.361 MiB for cuPHY PDSCH channel object (0x4abf8940).
+02:39:42.002111 CON 279 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 0.361 MiB for cuPHY PDSCH channel object (0x4abf8940).
+02:39:42.002420 CON 279 0 [CUPHY.PDSCH_TX] Running DL pipeline once w/ reference checks enabled in non AAS and Streams mode.
+02:39:42.004373 CON 279 0 [CUPHY.PDSCH_TX] 
+02:39:42.004374 CON 279 0 [CUPHY.PDSCH_TX] CRC Error Count: 0; GPU output compared w/ reference dataset(s) <tb*_cbs> from </work/tvgen/GPU_test_input/TVnr_3010_PDSCH_gNB_CUPHY_s0p0.h5>
+02:39:42.006701 CON 279 0 [CUPHY.PDSCH_TX] 
+02:39:42.006703 CON 279 0 [CUPHY.PDSCH_TX] LDPC Error Count: 0; GPU output compared w/ reference dataset <tb*_codedcbs> from </work/tvgen/GPU_test_input/TVnr_3010_PDSCH_gNB_CUPHY_s0p0.h5>
+02:39:42.016381 CON 279 0 [CUPHY.PDSCH_TX] 
+02:39:42.016384 CON 279 0 [CUPHY.PDSCH_TX] Fused Rate Matching and Modulation Mapper: Found 0 mismatched QAM symbols out of 1056
+02:39:42.016385 CON 279 0 [CUPHY.PDSCH_TX] GPU output compared w/ reference dataset <tb*_qams> from </work/tvgen/GPU_test_input/TVnr_3010_PDSCH_gNB_CUPHY_s0p0.h5>
+02:39:42.041865 CON 279 0 [CUPHY.PDSCH_TX] 
+02:39:42.041869 CON 279 0 [CUPHY.PDSCH_TX] PDSCH: Found 0 mismatched symbols out of 183456 in {3276, 14, 4} output tensor.
+02:39:42.041870 CON 279 0 [CUPHY.PDSCH_TX] GPU output compared w/ reference dataset <Xtf> from </work/tvgen/GPU_test_input/TVnr_3010_PDSCH_gNB_CUPHY_s0p0.h5>
+02:39:42.042638 CON 279 0 [CUPHY.PDSCH_TX] 
+02:39:42.042639 CON 279 0 [CUPHY.PDSCH_TX] Timing the DL pipeline in non AAS and Streams mode.
+02:39:42.042640 CON 279 0 [CUPHY.PDSCH_TX] - NB: Allocations not included. Ref. checks will fail!
+02:39:42.042640 CON 279 0 [CUPHY.PDSCH_TX] 
+02:39:42.042790 CON 279 0 [CUPHY.PDSCH_TX] DL pipeline: 59.87 us (avg. over 2 iterations)
+02:39:42.042790 CON 279 0 [CUPHY.PDSCH_TX] cuPHY PDSCH footprint: 378276 bytes.
+02:39:42.043115 CON 279 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [cuphy_ex_pdsch_] thread on core 2, last file path is /tmp/pdsch_tx.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

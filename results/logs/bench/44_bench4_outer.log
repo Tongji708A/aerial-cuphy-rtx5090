@@ -1,0 +1,76 @@
+2026-11-01T02:47:00+00:00 BENCH4_START
+==== BENCH4 1C m=0 --D --U ====
+RC=134
+/bin/bash: line 5:    58 Aborted                 timeout 300 $BIN -i bench3_${n}c.yaml -m $m -r 30 -w 10000 -g 0 --D --U > bench4_${n}c_m$m.log 2>&1
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+---- tail ----
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+02:47:00.937857 CON 59 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:47:00.939566 CON 60 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 1
+02:47:00.981080 CON 59 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+02:47:00.982370 CON 59 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8
+02:47:00.983243 WRN 59 0 [TESTBENCH] Warning! For F13 mode (u = 4) the number of slots in YAML must be a multiple of four
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+timeout: the monitored command dumped core
+==== BENCH4 1C m=1 --D --U ====
+/bin/bash: line 5:    71 Aborted                 timeout 300 $BIN -i bench3_${n}c.yaml -m $m -r 30 -w 10000 -g 0 --D --U > bench4_${n}c_m$m.log 2>&1
+RC=134
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+---- tail ----
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+02:47:02.099570 CON 72 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:47:02.101570 CON 73 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 5
+02:47:02.134245 CON 72 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+02:47:02.134729 CON 72 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8
+02:47:02.135210 WRN 72 0 [TESTBENCH] Warning! For F13 mode (u = 4) the number of slots in YAML must be a multiple of four
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+timeout: the monitored command dumped core
+==== BENCH4 4C m=0 --D --U ====
+RC=134
+/bin/bash: line 5:    84 Aborted                 timeout 300 $BIN -i bench3_${n}c.yaml -m $m -r 30 -w 10000 -g 0 --D --U > bench4_${n}c_m$m.log 2>&1
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+---- tail ----
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+02:47:03.159386 CON 85 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:47:03.160602 CON 86 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 4
+02:47:03.201401 CON 85 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+02:47:03.202318 CON 85 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8
+02:47:03.203093 WRN 85 0 [TESTBENCH] Warning! For F13 mode (u = 4) the number of slots in YAML must be a multiple of four
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+timeout: the monitored command dumped core
+==== BENCH4 4C m=1 --D --U ====
+/bin/bash: line 5:    97 Aborted                 timeout 300 $BIN -i bench3_${n}c.yaml -m $m -r 30 -w 10000 -g 0 --D --U > bench4_${n}c_m$m.log 2>&1
+RC=134
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+---- tail ----
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+02:47:04.429906 CON 98 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:47:04.432582 CON 99 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 2
+02:47:04.473562 CON 98 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+02:47:04.474132 CON 98 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8
+02:47:04.474652 WRN 98 0 [TESTBENCH] Warning! For F13 mode (u = 4) the number of slots in YAML must be a multiple of four
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+timeout: the monitored command dumped core
+==== BENCH4 1C m=0 -u3 --D --U ====
+/bin/bash: line 18:   110 Aborted                 timeout 300 $BIN -i bench3_1c.yaml -m 0 -r 30 -w 10000 -g 0 -u 3 --D --U > bench4_1c_u3_m0.log 2>&1
+RC_U3=134
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+02:47:05.570142 CON 111 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:47:05.572626 CON 112 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 4
+02:47:05.613253 CON 111 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+02:47:05.613855 CON 111 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8
+02:47:05.614344 WRN 111 0 [TESTBENCH] Warning! For F13 mode (u = 4) the number of slots in YAML must be a multiple of four
+terminate called after throwing an instance of 'cuphy::cuda_driver_exception'
+  what():  CUDA driver error: CUDA_ERROR_UNSUPPORTED_EXEC_AFFINITY - the provided execution affinity is not supported, cuCtxCreate()
+timeout: the monitored command dumped core
+2026-11-01T02:47:06+00:00 BENCH4_DONE

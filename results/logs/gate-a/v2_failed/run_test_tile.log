@@ -1,0 +1,13 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from Tile
+[ RUN      ] Tile.Basic2D
+[       OK ] Tile.Basic2D (792 ms)
+[ RUN      ] Tile.LargeElementSizes
+[       OK ] Tile.LargeElementSizes (15 ms)
+[ RUN      ] Tile.BitTensor
+[       OK ] Tile.BitTensor (6 ms)
+[ RUN      ] Tile.SizeMismatch
+[       OK ] Tile.SizeMismatch (4 ms)
+[ RUN      ] Tile.InternalError
+timeout: the monitored command dumped core

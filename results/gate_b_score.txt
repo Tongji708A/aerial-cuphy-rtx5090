@@ -1,0 +1,11 @@
+ssb    32/32
+pdsch  32/32
+pdcch  32/32
+pusch  32/32
+pucch  32/32
+prach  32/32
+csirs  16/16
+TOTAL  208/208
+pdsch latency us: n=32 min=25.9 median=46.6 max=72.0
+pdcch latency us: n=32 min=12.9 median=14.1 max=15.5
+pusch latency us: n=32 min=135.7 median=151.3 max=204.4

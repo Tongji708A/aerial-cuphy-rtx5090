@@ -1,0 +1,86 @@
+02:42:34.366241 CON 279 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:42:34.367589 CON 280 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 2
+02:42:34.410672 CON 279 0 [NVLOG.CPP] Output log file path /tmp/prach.log
+02:42:34.744597 CON 279 0 [CUPHY.PRACH_RX] File extension: h5
+02:42:34.744617 CON 279 0 [CUPHY.PRACH_RX] number of cells: 1
+02:42:34.744618 CON 279 0 [CUPHY.PRACH_RX] File: /work/tvgen/GPU_test_input/TVnr_5013_PRACH_gNB_CUPHY_s1p3.h5
+02:42:35.738000 CON 279 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 0.098 MiB for cuPHY PRACH channel object (0x353df7f0).
+02:42:35.738060 CON 279 0 [CUPHY.PRACH_RX] Timing 1 PRACH pipeline(s) Run(). 
+02:42:35.738062 CON 279 0 [CUPHY.PRACH_RX] - NB: Allocations, setup processing not included.
+
+02:42:35.748369 CON 279 0 [CUPHY.PRACH_RX] ---------------------------------------------------------------
+02:42:35.748370 CON 279 0 [CUPHY.PRACH_RX] Comparing test vectors ...
+02:42:35.748371 CON 279 0 [CUPHY.PRACH_RX] Comparing PRACH occasion: 0
+02:42:35.748435 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =      2 vs. gpu =      2
+02:42:35.748435 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:35.748436 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9741 vs. gpu = 0.9740
+02:42:35.748438 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =      5 vs. gpu =      5
+02:42:35.748438 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748438 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9922 vs. gpu = 0.9922
+02:42:35.748438 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =      8 vs. gpu =      8
+02:42:35.748439 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748439 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.8926 vs. gpu = 0.8926
+02:42:35.748439 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     11 vs. gpu =     11
+02:42:35.748439 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:35.748439 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.8426 vs. gpu = 0.8427
+02:42:35.748456 CON 279 0 [CUPHY.PRACH_RX] interference - matlab = -16.0463 vs. gpu = -16.0466
+02:42:35.748457 CON 279 0 [CUPHY.PRACH_RX] rssi - matlab = 5.8670 vs. gpu = 5.8669
+02:42:35.748457 CON 279 0 [CUPHY.PRACH_RX] ant rssi - matlab = 5.8671 vs. gpu = 5.8671
+02:42:35.748458 CON 279 0 [CUPHY.PRACH_RX] ant rssi - matlab = 5.8669 vs. gpu = 5.8668
+02:42:35.748458 CON 279 0 [CUPHY.PRACH_RX] Comparing PRACH occasion: 1
+02:42:35.748502 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     14 vs. gpu =     14
+02:42:35.748503 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748503 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.8296 vs. gpu = 0.8297
+02:42:35.748504 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     17 vs. gpu =     17
+02:42:35.748504 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:35.748504 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.8817 vs. gpu = 0.8816
+02:42:35.748504 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     20 vs. gpu =     20
+02:42:35.748505 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:35.748505 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9945 vs. gpu = 0.9945
+02:42:35.748505 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     23 vs. gpu =     23
+02:42:35.748505 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748505 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9692 vs. gpu = 0.9692
+02:42:35.748517 CON 279 0 [CUPHY.PRACH_RX] interference - matlab = -16.0842 vs. gpu = -16.0843
+02:42:35.748517 CON 279 0 [CUPHY.PRACH_RX] rssi - matlab = 5.8670 vs. gpu = 5.8670
+02:42:35.748517 CON 279 0 [CUPHY.PRACH_RX] ant rssi - matlab = 5.8670 vs. gpu = 5.8668
+02:42:35.748517 CON 279 0 [CUPHY.PRACH_RX] ant rssi - matlab = 5.8671 vs. gpu = 5.8671
+02:42:35.748517 CON 279 0 [CUPHY.PRACH_RX] Comparing PRACH occasion: 2
+02:42:35.748568 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     26 vs. gpu =     26
+02:42:35.748568 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:35.748569 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 1.0000 vs. gpu = 1.0000
+02:42:35.748569 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     29 vs. gpu =     29
+02:42:35.748569 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748570 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9326 vs. gpu = 0.9326
+02:42:35.748570 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     32 vs. gpu =     32
+02:42:35.748570 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748571 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.7928 vs. gpu = 0.7927
+02:42:35.748571 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     35 vs. gpu =     35
+02:42:35.748571 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:35.748572 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9498 vs. gpu = 0.9498
+02:42:35.748583 CON 279 0 [CUPHY.PRACH_RX] interference - matlab = -16.0449 vs. gpu = -16.0450
+02:42:35.748583 CON 279 0 [CUPHY.PRACH_RX] rssi - matlab = 5.8672 vs. gpu = 5.8671
+02:42:35.748583 CON 279 0 [CUPHY.PRACH_RX] ant rssi - matlab = 5.8672 vs. gpu = 5.8670
+02:42:35.748583 CON 279 0 [CUPHY.PRACH_RX] ant rssi - matlab = 5.8672 vs. gpu = 5.8672
+02:42:35.748583 CON 279 0 [CUPHY.PRACH_RX] Comparing PRACH occasion: 3
+02:42:35.748623 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     38 vs. gpu =     38
+02:42:35.748624 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748624 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9038 vs. gpu = 0.9038
+02:42:35.748625 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     41 vs. gpu =     41
+02:42:35.748625 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:35.748625 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9480 vs. gpu = 0.9480
+02:42:35.748626 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     44 vs. gpu =     44
+02:42:35.748626 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748626 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9785 vs. gpu = 0.9784
+02:42:35.748627 CON 279 0 [CUPHY.PRACH_RX] prmbIndex - matlab =     47 vs. gpu =     47
+02:42:35.748627 CON 279 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:35.748627 CON 279 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.8627 vs. gpu = 0.8627
+02:42:35.748636 CON 279 0 [CUPHY.PRACH_RX] interference - matlab = -16.2940 vs. gpu = -16.2942
+02:42:35.748636 CON 279 0 [CUPHY.PRACH_RX] rssi - matlab = 5.7538 vs. gpu = 5.7537
+02:42:35.748636 CON 279 0 [CUPHY.PRACH_RX] ant rssi - matlab = 5.8559 vs. gpu = 5.8559
+02:42:35.748637 CON 279 0 [CUPHY.PRACH_RX] ant rssi - matlab = 5.6493 vs. gpu = 5.6491
+02:42:35.748637 CON 279 0 [CUPHY.PRACH_RX] ========> Test PASS
+02:42:35.758707 CON 279 0 [CUPHY.PRACH_RX] Slot # 0,  PRACH pipeline(s): 28.00 us (avg. over 2 iterations)
+02:42:35.758709 CON 279 0 [CUPHY.PRACH_RX] --> Cell # 0 : 25.04 us (avg over 2 iterations)
+02:42:35.770440 CON 279 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [prach_receiver_] thread on core 4, last file path is /tmp/prach.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

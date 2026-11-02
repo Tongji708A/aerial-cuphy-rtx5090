@@ -1,0 +1,29 @@
+02:42:30.279227 CON 252 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:42:30.280571 CON 253 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 2
+02:42:30.313046 CON 252 0 [NVLOG.CPP] Output log file path /tmp/prach.log
+02:42:30.544307 CON 252 0 [CUPHY.PRACH_RX] File extension: h5
+02:42:30.544318 CON 252 0 [CUPHY.PRACH_RX] number of cells: 1
+02:42:30.544318 CON 252 0 [CUPHY.PRACH_RX] File: /work/tvgen/GPU_test_input/TVnr_5011_PRACH_gNB_CUPHY_s1p0.h5
+02:42:31.102027 CON 252 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 0.024 MiB for cuPHY PRACH channel object (0x7e25ae0).
+02:42:31.102058 CON 252 0 [CUPHY.PRACH_RX] Timing 1 PRACH pipeline(s) Run(). 
+02:42:31.102059 CON 252 0 [CUPHY.PRACH_RX] - NB: Allocations, setup processing not included.
+
+02:42:31.112255 CON 252 0 [CUPHY.PRACH_RX] ---------------------------------------------------------------
+02:42:31.112257 CON 252 0 [CUPHY.PRACH_RX] Comparing test vectors ...
+02:42:31.112257 CON 252 0 [CUPHY.PRACH_RX] Comparing PRACH occasion: 0
+02:42:31.112304 CON 252 0 [CUPHY.PRACH_RX] prmbIndex - matlab =      2 vs. gpu =      2
+02:42:31.112305 CON 252 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:31.112306 CON 252 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9712 vs. gpu = 0.9711
+02:42:31.112306 CON 252 0 [CUPHY.PRACH_RX] prmbIndex - matlab =      5 vs. gpu =      5
+02:42:31.112306 CON 252 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.1302 vs. gpu = 0.1302
+02:42:31.112306 CON 252 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.9914 vs. gpu = 0.9914
+02:42:31.112323 CON 252 0 [CUPHY.PRACH_RX] interference - matlab = -19.2222 vs. gpu = -19.2223
+02:42:31.112323 CON 252 0 [CUPHY.PRACH_RX] rssi - matlab = 2.8568 vs. gpu = 2.8567
+02:42:31.112324 CON 252 0 [CUPHY.PRACH_RX] ant rssi - matlab = 2.8569 vs. gpu = 2.8568
+02:42:31.112324 CON 252 0 [CUPHY.PRACH_RX] ant rssi - matlab = 2.8567 vs. gpu = 2.8566
+02:42:31.112325 CON 252 0 [CUPHY.PRACH_RX] ========> Test PASS
+02:42:31.122365 CON 252 0 [CUPHY.PRACH_RX] Slot # 0,  PRACH pipeline(s): 14.69 us (avg. over 2 iterations)
+02:42:31.122366 CON 252 0 [CUPHY.PRACH_RX] --> Cell # 0 : 12.78 us (avg over 2 iterations)
+02:42:31.133438 CON 252 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [prach_receiver_] thread on core 1, last file path is /tmp/prach.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

@@ -1,0 +1,22 @@
+--- a/cuPHY/test/tile/test_tile.cpp
++++ b/cuPHY/test/tile/test_tile.cpp
+@@ -17,6 +17,7 @@
+ 
+ #include <gtest/gtest.h>
+ #include "cuphy.hpp"
++#include <cstdlib>
+ 
+ // Define printer for float2 and double2 for Google Test
+ namespace testing {
+@@ -365,6 +366,11 @@
+ ////////////////////////////////////////////////////////////////////////
+ // Tile.InternalError
+ TEST(Tile, InternalError) {
++    // OpenLab 0010: the helper launches on a cudaStream_t that was already destroyed.
++    // That is undefined behaviour; CUDA 13.1 + driver 590 dereferences it and segfaults
++    // (rc=139) instead of returning an error, which kills the rest of the binary.
++    if(getenv("CUPHY_TEST_UB_STREAM") == nullptr)
++        GTEST_SKIP() << "destroyed-stream UB test; set CUPHY_TEST_UB_STREAM=1 to run";
+     run_internal_error_test();
+ }
+ 

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Aerial cuPHY on RTX 5090 (sm_120): build, patches and L1 validation"
+type: software
+authors:
+  - family-names: Xu
+    given-names: Hao
+    affiliation: "Tongji University / OpenLab"
+  - name: "OpenLab contributors"
+version: "0.1.0"
+date-released: "2026-11-02"
+license: Apache-2.0
+keywords:
+  - NVIDIA Aerial
+  - cuPHY
+  - 5G NR
+  - O-RAN
+  - RTX 5090
+  - Blackwell
+  - sm_120
+references:
+  - type: software
+    title: "NVIDIA Aerial CUDA-Accelerated RAN"
+    authors:
+      - name: "NVIDIA Corporation"
+    url: "https://github.com/NVIDIA/aerial-cuda-accelerated-ran"
+    version: "26.1.2"

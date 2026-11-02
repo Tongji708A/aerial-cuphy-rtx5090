@@ -1,0 +1,21 @@
+02:43:00.929187 CON 174 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:43:00.931561 CON 175 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 3
+02:43:00.963395 CON 174 0 [NVLOG.CPP] Output log file path /tmp/csirs_tx_multicell.log
+number of cells: 1
+slot: 0
+    channel: CSIRS
+        file: /work/tvgen/GPU_test_input/TVnr_4013_CSIRS_gNB_CUPHY_s0p0.h5
+02:43:01.724279 CON 174 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 0.095 MiB for cuPHY CSIRS channel object (0x3d41f940).
+02:43:01.724308 CON 174 0 [CUPHY.CSIRS_TX] Timing 1 CSIRS pipeline(s). 
+02:43:01.724310 CON 174 0 [CUPHY.CSIRS_TX] 
+02:43:01.724312 CON 174 0 [CUPHY.CSIRS_TX] - NB: Allocations, setup processing not included.
+02:43:01.724312 CON 174 0 [CUPHY.CSIRS_TX] 
+02:43:01.742713 CON 174 0 [CUPHY.CSIRS_TX] CSI-RS dims 3276 14 12
+02:43:01.764280 CON 174 0 [CUPHY.CSIRS_TX] ====> TV /work/tvgen/GPU_test_input/TVnr_4013_CSIRS_gNB_CUPHY_s0p0.h5: Test PASS
+02:43:01.805645 CON 174 0 [CUPHY.CSIRS_TX] Slot # 0, CSIRS pipeline(s) CPU Time: 13.23 us total (summed over 1 CSIRS objects, avg. over 5 iterations)
+02:43:01.805647 CON 174 0 [CUPHY.CSIRS_TX] --> Slot # 0: CPU-Run 13.23 us (min 11.40 us, max 14.98 us), CPU-Setup 0.00 us (min 0.00 us, max 0.00 us)
+02:43:01.805648 CON 174 0 [CUPHY.CSIRS_TX] Slot # 0, CSIRS pipeline(s) GPU-run only in Stream mode: 8.43 us (avg. over 5 iterations).
+02:43:01.805649 CON 174 0 [CUPHY.CSIRS_TX] --> Cell # 0 : 6.62 us (avg over 5 iterations)
+02:43:01.815680 CON 174 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [cuphy_ex_nzp_cs] thread on core 1, last file path is /tmp/csirs_tx_multicell.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

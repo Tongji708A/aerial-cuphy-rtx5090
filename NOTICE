@@ -1,0 +1,19 @@
+Aerial cuPHY on RTX 5090 (sm_120)
+Copyright 2026 OpenLab contributors (Tongji University)
+
+This product includes scripts, documentation and patch files developed by OpenLab,
+licensed under the Apache License, Version 2.0.
+
+The files under patches/ are modifications ("diffs") to NVIDIA Aerial CUDA-Accelerated RAN
+(https://github.com/NVIDIA/aerial-cuda-accelerated-ran, tag 26.1.2), which is
+Copyright (c) NVIDIA CORPORATION & AFFILIATES and licensed under the Apache License 2.0.
+The patch files contain short excerpts of that source as diff context. Each patch states
+what it changes and leaves an "OpenLab NNNN" comment in the code.
+
+This repository does NOT contain NVIDIA source trees, binaries, container images, test
+vectors, MATLAB Runtime, or NGC credentials. Software obtained from NVIDIA NGC is governed by
+NVIDIA's terms (see https://docs.nvidia.com/aerial/cuda-accelerated-ran/latest/release_notes/acknowledgements.html).
+MATLAB Runtime is governed by the MathWorks license.
+
+NVIDIA, Aerial, CUDA, GeForce and RTX are trademarks of NVIDIA Corporation. MATLAB is a
+trademark of The MathWorks, Inc. This project is not affiliated with or endorsed by NVIDIA.

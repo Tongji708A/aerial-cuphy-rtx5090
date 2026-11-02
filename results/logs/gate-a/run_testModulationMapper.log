@@ -1,0 +1,81 @@
+[==========] Running 18 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from ModulationMapperTest
+[ RUN      ] ModulationMapperTest.ModulateSymbol
+[       OK ] ModulationMapperTest.ModulateSymbol (858 ms)
+[----------] 1 test from ModulationMapperTest (858 ms total)
+
+[----------] 17 tests from ModulationMapperTests/ModulationMapperTest
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/0
+Modulation Mapper Kernel: 11.07 us (avg. over 20 iterations)
+Found 0 mismatches out of 100 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/0 (2 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/1
+Modulation Mapper Kernel: 10.86 us (avg. over 20 iterations)
+Found 0 mismatches out of 235872 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/1 (30 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/2
+Modulation Mapper Kernel: 22.83 us (avg. over 20 iterations)
+Found 0 mismatches out of 10000001 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/2 (1146 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/3
+Modulation Mapper Kernel: 12.20 us (avg. over 20 iterations)
+Found 0 mismatches out of 100 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/3 (3 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/4
+Modulation Mapper Kernel: 10.43 us (avg. over 20 iterations)
+Found 0 mismatches out of 235872 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/4 (31 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/5
+Modulation Mapper Kernel: 25.75 us (avg. over 20 iterations)
+Found 0 mismatches out of 10000001 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/5 (1213 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/6
+Modulation Mapper Kernel: 10.92 us (avg. over 20 iterations)
+Found 0 mismatches out of 100 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/6 (3 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/7
+Modulation Mapper Kernel: 9.84 us (avg. over 20 iterations)
+Found 0 mismatches out of 235872 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/7 (33 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/8
+Modulation Mapper Kernel: 31.03 us (avg. over 20 iterations)
+Found 0 mismatches out of 10000001 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/8 (1281 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/9
+Modulation Mapper Kernel: 11.69 us (avg. over 20 iterations)
+Found 0 mismatches out of 100 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/9 (3 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/10
+Modulation Mapper Kernel: 10.79 us (avg. over 20 iterations)
+Found 0 mismatches out of 36036 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/10 (7 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/11
+Modulation Mapper Kernel: 9.62 us (avg. over 20 iterations)
+Found 0 mismatches out of 235872 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/11 (32 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/12
+Modulation Mapper Kernel: 27.13 us (avg. over 20 iterations)
+Found 0 mismatches out of 10000001 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/12 (1331 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/13
+Modulation Mapper Kernel: 11.52 us (avg. over 20 iterations)
+Found 0 mismatches out of 100 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/13 (3 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/14
+Modulation Mapper Kernel: 9.87 us (avg. over 20 iterations)
+Found 0 mismatches out of 100 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/14 (2 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/15
+Modulation Mapper Kernel: 9.28 us (avg. over 20 iterations)
+Found 0 mismatches out of 100 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/15 (2 ms)
+[ RUN      ] ModulationMapperTests/ModulationMapperTest.CONFIGS/16
+Modulation Mapper Kernel: 11.17 us (avg. over 20 iterations)
+Found 0 mismatches out of 100 symbols.
+[       OK ] ModulationMapperTests/ModulationMapperTest.CONFIGS/16 (2 ms)
+[----------] 17 tests from ModulationMapperTests/ModulationMapperTest (5129 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 2 test suites ran. (5988 ms total)
+[  PASSED  ] 18 tests.

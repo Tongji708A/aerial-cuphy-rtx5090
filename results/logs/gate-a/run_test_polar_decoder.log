@@ -1,0 +1,114 @@
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from PolarDecoderTest
+[ RUN      ] PolarDecoderTest.ComprehensiveBasicFunctionalityTest
+Testing: Basic functionality
+Testing: Multiple codewords
+Testing: List decoding size 2
+Testing: List decoding size 4
+Testing: List decoding size 8
+Testing: Async copy enabled
+Testing: Maximum codewords
+Testing: Small codeword
+Testing: Large codeword
+Testing: Minimum parameters
+Testing: Exit flag set
+Testing: Exit flag set (list size 2)
+[       OK ] PolarDecoderTest.ComprehensiveBasicFunctionalityTest (1904 ms)
+[ RUN      ] PolarDecoderTest.ComprehensiveCrcAndValidationTest
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC test
+Testing: CRC success path
+[       OK ] PolarDecoderTest.ComprehensiveCrcAndValidationTest (19 ms)
+[ RUN      ] PolarDecoderTest.Deterministic_StrongPositiveLLRs_ProduceZeroPayload
+[       OK ] PolarDecoderTest.Deterministic_StrongPositiveLLRs_ProduceZeroPayload (7 ms)
+[ RUN      ] PolarDecoderTest.CoversValidateCrcCrc16PathInListDecoder
+Testing: validate_crc CRC16 (list decoder)
+[       OK ] PolarDecoderTest.CoversValidateCrcCrc16PathInListDecoder (18 ms)
+[ RUN      ] PolarDecoderTest.CoversXorBitsTailWordWhenAppendingCrc
+Testing: Misaligned payload crosses word
+[       OK ] PolarDecoderTest.CoversXorBitsTailWordWhenAppendingCrc (4 ms)
+[ RUN      ] PolarDecoderTest.CoversResetBitsPartialTailWordWhenClearingCrc
+Testing: Misaligned CRC clear crosses word
+[       OK ] PolarDecoderTest.CoversResetBitsPartialTailWordWhenClearingCrc (4 ms)
+[ RUN      ] PolarDecoderTest.ComprehensiveUciSegmentTest
+Testing: Two CBs in UCI
+Testing: Two CBs in UCI (no zero insert)
+Testing: Two CBs in UCI (list decode)
+Testing: Three CBs in UCI
+Testing: Zero insertion flag
+[       OK ] PolarDecoderTest.ComprehensiveUciSegmentTest (8 ms)
+[ RUN      ] PolarDecoderTest.ComprehensiveListDecoderTest
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: List decoder test
+Testing: Max codewords list
+[       OK ] PolarDecoderTest.ComprehensiveListDecoderTest (72 ms)
+[ RUN      ] PolarDecoderTest.ComprehensiveKernelFunctionTest
+Testing: Very small kernel
+Testing: Very small kernel
+Testing: Very small kernel
+Testing: Small kernel
+Testing: Small kernel
+Testing: Small kernel
+Testing: Medium kernel
+Testing: Medium kernel
+Testing: Medium kernel
+Testing: Large kernel
+Testing: Large kernel
+Testing: Large kernel
+Testing: Cooperative kernel
+Testing: Cooperative kernel
+Testing: Cooperative kernel
+[       OK ] PolarDecoderTest.ComprehensiveKernelFunctionTest (11 ms)
+[ RUN      ] PolarDecoderTest.ComprehensiveBitManipulationTest
+Testing: Bit manipulation 8
+Testing: Bit manipulation 32
+Testing: Bit manipulation 64
+Testing: Word extraction
+Testing: Bit shifting
+[       OK ] PolarDecoderTest.ComprehensiveBitManipulationTest (5 ms)
+[ RUN      ] PolarDecoderTest.ComprehensiveEdgeCaseTest
+Testing: Minimal size
+Testing: Single bit
+Testing: Edge size 48
+Testing: Complex tree
+[       OK ] PolarDecoderTest.ComprehensiveEdgeCaseTest (5 ms)
+[ RUN      ] PolarDecoderTest.ErrorHandlingTest
+[       OK ] PolarDecoderTest.ErrorHandlingTest (3 ms)
+[----------] 12 tests from PolarDecoderTest (2065 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (2066 ms total)
+[  PASSED  ] 12 tests.

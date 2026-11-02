@@ -1,0 +1,18 @@
+rm: cannot remove 'GPU_test_input/disabled*': No such file or directory
+run5GModelCicd with relNum 10000
+TVRC=0
+rm: cannot remove 'GPU_test_input/disabled*': No such file or directory
+run5GModelCicd with relNum 10000
+TVRC=0
+Total time for runRegression is 446 seconds
+run5GModelCicd with relNum 10000
+TVRC=0
+Total time for runRegression is 76 seconds
+run5GModelCicd with relNum 10000
+TVRC=0
+rm: cannot remove 'GPU_test_input/disabled*': No such file or directory
+run5GModelCicd with relNum 10000
+TVRC=0
+rm: cannot remove 'GPU_test_input/disabled*': No such file or directory
+run5GModelCicd with relNum 10000
+TVRC=0

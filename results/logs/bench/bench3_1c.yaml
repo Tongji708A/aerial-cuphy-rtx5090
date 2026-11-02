@@ -1,0 +1,6 @@
+cells: 1
+slots:
+    - PDSCH:
+        - /work/tvgen/GPU_test_input/TVnr_3001_PDSCH_gNB_CUPHY_s0p0.h5
+    - PUSCH:
+        - /work/tvgen/GPU_test_input/TVnr_7018_PUSCH_gNB_CUPHY_s0p0.h5

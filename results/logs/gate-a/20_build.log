@@ -1,0 +1,106 @@
+-- Using toolchain /opt/aerial/src/cuPHY/cmake/toolchains/native
+-- The content of file: /opt/aerial/src/aerial-sdk-version is: 26-1-cubb, assigned to AERIAL_SDK_VERSION
+-- Enabled ccache
+-- Using ENV{cuBB_SDK} /opt/aerial/src
+-- Using GPU architectures 120
+-- cuPHY is using toolchain /opt/aerial/src/cuPHY/cmake/toolchains/native
+-- cuPHY using CMAKE_CUDA_ARCHITECTURES=120
+-- Configuring /opt/aerial/src/build.sm120/cuPHY/Doxyfile
+-- including nvlog
+-- mathdx: Found CUTLASS (NvidiaCutlass) dependency: /usr/local/nvidia/mathdx/25.06/external/cutlass/include
+-- cufftdx: Found CUTLASS (NvidiaCutlass) dependency: /usr/local/nvidia/mathdx/25.06/external/cutlass/include
+-- cufftdx: Found commondx dependency
+-- Found cufftdx: (Version: 1.5.1, Include dirs: /usr/local/nvidia/mathdx/25.06/include)
+-- mathDx: cuFFTDx found: /usr/local/nvidia/mathdx/25.06/include
+-- mathdx: Found CUTLASS (NvidiaCutlass) dependency: /usr/local/nvidia/mathdx/25.06/external/cutlass/include
+-- cufftdx: Found CUTLASS (NvidiaCutlass) dependency: /usr/local/nvidia/mathdx/25.06/external/cutlass/include
+-- cufftdx: Found commondx dependency
+-- Found cufftdx: (Version: 1.5.1, Include dirs: /usr/local/nvidia/mathdx/25.06/include)
+-- mathDx: cuFFTDx found: /usr/local/nvidia/mathdx/25.06/include
+-- Found pybind11: /usr/include (found version "2.9.1")
+-- testBenches is using toolchain /opt/aerial/src/cuPHY/cmake/toolchains/native
+-- testBenches is using CMAKE_CUDA_ARCHITECTURES=120
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: C CXX 
+-- Using toolchain /opt/aerial/src/cuPHY/cmake/toolchains/native
+-- cuMAC is using toolchain /opt/aerial/src/cuPHY/cmake/toolchains/native
+-- Using GPU architectures 120
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: CXX 
+-- cumac_ml is using toolchain /opt/aerial/src/cuPHY/cmake/toolchains/native
+-- cumac_ml is using GPU architectures 120
+-- Using HDF5 CXX target /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so.
+-- ==========================================
+-- nonOpenSourceModules Build Configuration
+-- ==========================================
+-- Build type: Release
+-- C++ standard: 20
+-- CUDA toolkit: 13.1.115
+-- HDF5 CXX libraries: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so
+-- TensorRT libraries: /usr/local/lib/libnvinfer.so, /usr/local/lib/libnvonnxparser.so
+-- ==========================================
+cuMAC-CP: L2ADAPTER_LIBS=
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found suitable version "3.0.2", minimum required is "3.0.0") found components: Crypto SSL 
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+=========================================================
+Build nvipc for [x86_64] CMAKE_BUILD_TYPE=Release
+NVIPC_CUDA_ENABLE=ON CUDAToolkit_VERSION=13.1.115
+NVIPC_DPDK_ENABLE=OFF DPDK_VERSION=22.11.2510.2.1
+NVIPC_DOCA_ENABLE=OFF DOCA_VERSION=3.2.1025
+NVIPC_DOCA_GPUNETIO=OFF
+NVIPC_GDRCPY_ENABLE=OFF
+NVIPC_FMTLOG_ENABLE=ON
+=========================================================
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found suitable version "1.10.7", minimum required is "1.10") found components: C 
+-- Found libsctp: /usr/lib/x86_64-linux-gnu/libsctp.so
+-- including nvipc
+-- including oran_utils
+-- CMAKE_CURRENT_SOURCE_DIR is /opt/aerial/src/cuPHY-CP/gt_common_libs/oran_utils
+-- including slot_comamnd
+-- CMAKE_CURRENT_SOURCE_DIR is /opt/aerial/src/cuPHY-CP/gt_common_libs/slot_command
+-- PROJECT_SOURCE_DIR is /opt/aerial/src/cuPHY-CP/gt_common_libs/nvIPC/include/
+-- including perf_metrics
+-- Linking perf_metrics with nvlog target
+-- CMAKE_CURRENT_SOURCE_DIR is /opt/aerial/src/cuPHY-CP/gt_common_libs/perf_metrics
+-- LIBYANG version = 3.13.5
+-- LIBYANG dir= /usr/local/lib
+-- LIBYANG cpp version = 4
+-- LIBYANG cpp dir= /usr/local/lib
+-- Using system protoc: /usr/local/bin/protoc
+-- Using system grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+-- Using system grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+-- RU building with REPO
+-- Setting CUBB_HOME to /opt/aerial/src
+-- DOCA_PATH cmake variable is seen from aeril-fh-drive cmake file doca include dirs Includes: /opt/mellanox/doca/include;/usr/include/libnl3, Lib Dirs: /opt/mellanox/doca/lib/x86_64-linux-gnu Libs:doca_gpunetio Cuda Driver Lib: Cuda RT Lib:
+-- DOCA GPU communication enabled
+-- Setting CUBB_HOME to /opt/aerial/src
+-- FH Gen Cmake DOCA Lib Dirs: /opt/mellanox/doca/lib/x86_64-linux-gnu
+-- CUDA_LIBRARIES is 
+-- CUDA_INCLUDE_DIRS is 
+-- Setting CUBB_HOME to /opt/aerial/src
+-- Cuphydriver Cmake DOCA Lib Dirs: /opt/mellanox/doca/lib/x86_64-linux-gnu
+-- Configuring E3 Agent ZMQ dependencies
+-- Using ZMQ include: /usr/include
+-- Using ZMQ library: zmq
+-- including comp_decomp_lib
+-- CMAKE_CURRENT_SOURCE_DIR is /opt/aerial/src/cuPHY-CP/compression_decompression/comp_decomp_lib
+-- including comp_decomp_examples
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found suitable version "1.10.7", minimum required is "1.10") found components: C CXX 
+-- TESTMAC: SOURCES=main.cpp;launch_pattern.cpp;test_mac_configs.cpp;test_mac.cpp;fapi_handler.cpp;fapi_validate.cpp;signal_handler.cpp;dummy.cu;cumac_pattern.cpp;cumac_handler.cpp;cumac_configs.cpp;cumac_validate.cpp;scf_fapi_handler.cpp
+-- TESTMAC: L2ADAPTER_LIBS=scf_5g_fapi
+-- tests includes order kernel test bench
+-- Setting CUBB_HOME to /opt/aerial/src
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/local/lib/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/local/lib/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found suitable version "1.10.7", minimum required is "1.10") found components: C 
+-- Order Kernel test bench Cmake DOCA Lib Dirs: /opt/mellanox/doca/lib/x86_64-linux-gnu
+-- Order Kernel test bench include: /opt/aerial/src/cuPHY-CP/scfl2adapter/lib/scf_5g_fapi
+-- Order Kernel test bench include: /opt/aerial/src/cuPHY-CP/cuphydriver/include
+-- tests includes DL C test bench
+-- Setting CUBB_HOME to /opt/aerial/src
+-- Configuring done (8.1s)
+-- Generating done (1.7s)
+-- Build files have been written to: /opt/aerial/src/build.sm120
+taskset: failed to parse CPU list: 
+[1/4] Building CXX object cuPHY/test/fill/CMakeFiles/test_fill.dir/test_fill.cpp.o
+[2/4] Linking CXX executable cuPHY/test/fill/test_fill
+[3/4] Building CUDA object cuPHY/test/crc/CMakeFiles/crcTest.dir/__/__/src/cuphy/crc/crcTest.cu.o
+[4/4] Linking CUDA executable cuPHY/test/crc/crcTest
+Build completed successfully.
+BUILD_RC=0

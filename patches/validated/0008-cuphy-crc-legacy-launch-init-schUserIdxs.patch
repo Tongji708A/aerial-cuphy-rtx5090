@@ -1,0 +1,13 @@
+--- a/cuPHY/src/cuphy/crc/crc.cu
++++ b/cuPHY/src/cuphy/crc/crc.cu
+@@ -304,6 +304,10 @@
+     desc.pOutputTBCRCs    = d_tbCRCs;
+     desc.pTbPrmsArray     = d_tbPrmsArray;
+     desc.reverseBytes     = reverseBytes;
++    // OpenLab 0008: the legacy (non-setup) API never filled schUserIdxs; the kernels
++    // index tbPrmsArray via schUserIdxs[blockIdx.y], so uninitialized pinned memory
++    // made every TB use TB0's params (CRC_GPU_UPLINK_PUSCH.24B_24A failure). Identity map.
++    for(uint32_t i = 0; i < nTBs; i++) desc.schUserIdxs[i] = static_cast<uint16_t>(i);
+ 
+     // Because the kernel is now grid constant, we do not need to copy the descriptor to GPU memory
+ 

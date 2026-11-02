@@ -1,0 +1,33 @@
+Running main() from /var/tmp/googletest/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from TensorLayoutTest
+[ RUN      ] TensorLayoutTest.VariadicGetOffset
+[       OK ] TensorLayoutTest.VariadicGetOffset (0 ms)
+[ RUN      ] TensorLayoutTest.OffsetCalculation
+[       OK ] TensorLayoutTest.OffsetCalculation (0 ms)
+[ RUN      ] TensorLayoutTest.OffsetCalculationDifferentDims
+[       OK ] TensorLayoutTest.OffsetCalculationDifferentDims (0 ms)
+[ RUN      ] TensorLayoutTest.OffsetCalculationEdgeCases
+[       OK ] TensorLayoutTest.OffsetCalculationEdgeCases (0 ms)
+[ RUN      ] TensorLayoutTest.GetOffset1D
+[       OK ] TensorLayoutTest.GetOffset1D (0 ms)
+[ RUN      ] TensorLayoutTest.GetOffset2D
+[       OK ] TensorLayoutTest.GetOffset2D (0 ms)
+[ RUN      ] TensorLayoutTest.GetOffset3D
+[       OK ] TensorLayoutTest.GetOffset3D (0 ms)
+[ RUN      ] TensorLayoutTest.CustomStrides
+[       OK ] TensorLayoutTest.CustomStrides (0 ms)
+[ RUN      ] TensorLayoutTest.OutOfBoundsCheck
+[       OK ] TensorLayoutTest.OutOfBoundsCheck (0 ms)
+[ RUN      ] TensorLayoutTest.NegativeIndicesCheck
+[       OK ] TensorLayoutTest.NegativeIndicesCheck (0 ms)
+[ RUN      ] TensorLayoutTest.MaxIndices
+[       OK ] TensorLayoutTest.MaxIndices (0 ms)
+[ RUN      ] TensorLayoutTest.ConsistencyBetweenConstructors
+[       OK ] TensorLayoutTest.ConsistencyBetweenConstructors (0 ms)
+[----------] 12 tests from TensorLayoutTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 12 tests.

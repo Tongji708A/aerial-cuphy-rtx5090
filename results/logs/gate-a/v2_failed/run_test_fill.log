@@ -1,0 +1,19 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from Fill
+[ RUN      ] Fill.Basic
+[       OK ] Fill.Basic (1119 ms)
+[ RUN      ] Fill.IndexGroup
+unknown file: Failure
+C++ exception with description "CUPHY_BIT subset must be word aligned" thrown in the test body.
+
+[  FAILED  ] Fill.IndexGroup (20 ms)
+[----------] 2 tests from Fill (1140 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (1140 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Fill.IndexGroup
+
+ 1 FAILED TEST

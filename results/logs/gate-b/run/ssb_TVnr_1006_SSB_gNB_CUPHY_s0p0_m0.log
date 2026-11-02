@@ -1,0 +1,10 @@
+02:38:52.828202 CON 152 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:38:52.829720 CON 153 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 3
+02:38:52.863004 CON 152 0 [NVLOG.CPP] Output log file path /tmp/ssb_tx.log
+02:38:53.626487 CON 152 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 0.001 MiB for cuPHY SSB channel object (0x1fd56330).
+02:38:53.626603 CON 152 0 [CUPHY.SSB_TX] SSB TX Pipeline in Stream mode: 28.90 us (avg. over 1 iterations)
+02:38:53.626603 CON 152 0 [CUPHY.SSB_TX] - NB: Allocations/PBCH payload generation and CRC computation/mem. copies not included!
+02:38:53.636072 CON 152 0 [CUPHY.SSB_TX] ====> TV /work/tvgen/GPU_test_input/TVnr_1006_SSB_gNB_CUPHY_s0p0.h5: Test PASS
+02:38:53.636398 CON 152 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [testSS] thread on core 1, last file path is /tmp/ssb_tx.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

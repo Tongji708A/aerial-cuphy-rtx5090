@@ -1,0 +1,140 @@
+[==========] Running 19 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from PolarEncoderKernelSelect
+[ RUN      ] PolarEncoderKernelSelect.MultiDCI_InvalidArgs_ReturnsInvalidArgument
+[       OK ] PolarEncoderKernelSelect.MultiDCI_InvalidArgs_ReturnsInvalidArgument (44 ms)
+[ RUN      ] PolarEncoderKernelSelect.MultiDCI_InternalNullLaunchCfg_CoversLine1144_WhenExported
+/opt/aerial/src/cuPHY/test/polar_encoder/test_polar_encoder.cpp:632: Skipped
+Internal symbol not exported; cannot cover line 1144 via test-only change. dlerror=/opt/aerial/src/build.sm120/cuPHY/test/polar_encoder/test_polar_encoder: undefined symbol: _ZN13polar_encoder36kernelSelectEncodeRateMatchMultiDCIsEP40cuphyEncoderRateMatchMultiDCILaunchCfg_tj
+
+[  SKIPPED ] PolarEncoderKernelSelect.MultiDCI_InternalNullLaunchCfg_CoversLine1144_WhenExported (0 ms)
+[ RUN      ] PolarEncoderKernelSelect.MultiSSB_InvalidArgs_ReturnsInvalidArgument
+[       OK ] PolarEncoderKernelSelect.MultiSSB_InvalidArgs_ReturnsInvalidArgument (0 ms)
+[----------] 3 tests from PolarEncoderKernelSelect (44 ms total)
+
+[----------] 10 tests from PolarEncoderTest
+[ RUN      ] PolarEncoderTest.ComprehensiveBasicFunctionalityTest
+Testing: Basic DL encoding
+Testing: Basic UL encoding
+Testing: Minimum info bits
+Testing: Maximum info bits
+Testing: Repetition case
+Testing: Valid puncturing case
+Testing: Valid shortening case
+Testing: Code rate 1/2
+Testing: Code rate 1/4
+Testing: Code rate 1/8
+Testing: Small sizes
+Testing: Medium sizes
+Testing: Large sizes
+[       OK ] PolarEncoderTest.ComprehensiveBasicFunctionalityTest (2002 ms)
+[ RUN      ] PolarEncoderTest.ComprehensiveInfoBitPatternTest
+Testing: Pattern test
+Testing: Pattern test
+Testing: Pattern test
+Testing: Pattern test
+Testing: Pattern test
+Testing: Pattern test
+Testing: Pattern test
+Testing: Pattern test
+[       OK ] PolarEncoderTest.ComprehensiveInfoBitPatternTest (27 ms)
+[ RUN      ] PolarEncoderTest.ComprehensiveDLvsULTest
+Testing: DL small
+Testing: UL small
+Testing: DL medium
+Testing: UL medium
+Testing: DL large
+Testing: UL large
+[       OK ] PolarEncoderTest.ComprehensiveDLvsULTest (20 ms)
+[ RUN      ] PolarEncoderTest.ComprehensiveRateMatchingTest
+Testing: Repetition 2x
+Testing: Repetition 4x
+Testing: Repetition 8x
+Testing: Repetition rembits mask path
+Testing: Puncturing valid high
+Testing: Puncturing valid medium
+Testing: Shortening low ratio
+Testing: Shortening very low ratio
+Testing: Min code rate edge 1
+Testing: Min code rate edge 2
+[       OK ] PolarEncoderTest.ComprehensiveRateMatchingTest (33 ms)
+[ RUN      ] PolarEncoderTest.ComprehensiveCodeSizeBoundaryTest
+Testing: Min code boundary 1
+Testing: Min code boundary 2
+Testing: Min code boundary 3
+Testing: Power of 2 - 64
+Testing: Power of 2 - 128
+Testing: Power of 2 - 256
+Testing: Power of 2 - 512
+Testing: Max code boundary 1
+Testing: Max code boundary 2
+Testing: Max code boundary 3
+[       OK ] PolarEncoderTest.ComprehensiveCodeSizeBoundaryTest (32 ms)
+[ RUN      ] PolarEncoderTest.ComprehensiveSubBlockInterleavingTest
+Testing: Interleaving 32 bits
+Testing: Interleaving 64 bits
+Testing: Interleaving 128 bits
+Testing: Interleaving 256 bits
+Testing: Interleaving 512 bits
+[       OK ] PolarEncoderTest.ComprehensiveSubBlockInterleavingTest (16 ms)
+[ RUN      ] PolarEncoderTest.ErrorHandlingTest
+[       OK ] PolarEncoderTest.ErrorHandlingTest (3 ms)
+[ RUN      ] PolarEncoderTest.AlignmentTest
+[       OK ] PolarEncoderTest.AlignmentTest (3 ms)
+[ RUN      ] PolarEncoderTest.StressTest
+Testing: Stress max info
+Testing: Stress max info UL
+Testing: Stress high repetition
+Testing: Stress high puncturing
+[       OK ] PolarEncoderTest.StressTest (13 ms)
+[ RUN      ] PolarEncoderTest.PerformanceConsistencyTest
+Testing: Performance test
+Testing: Performance test
+Testing: Performance test
+Testing: Performance test
+Testing: Performance test
+Testing: Performance test
+Testing: Performance test
+Testing: Performance test
+Testing: Performance test
+Testing: Performance test
+[       OK ] PolarEncoderTest.PerformanceConsistencyTest (32 ms)
+[----------] 10 tests from PolarEncoderTest (2185 ms total)
+
+[----------] 4 tests from PolarEncoderMultiDCITest
+[ RUN      ] PolarEncoderMultiDCITest.MultiDCIEncodingTest
+Testing Multi-DCI encoding with 1 DCIs
+Testing Multi-DCI encoding with 2 DCIs
+Testing Multi-DCI encoding with 4 DCIs
+Testing Multi-DCI encoding with 8 DCIs
+Testing Multi-DCI encoding with 16 DCIs
+[       OK ] PolarEncoderMultiDCITest.MultiDCIEncodingTest (18 ms)
+[ RUN      ] PolarEncoderMultiDCITest.MultiDCITestingModeTest
+Testing Multi-DCI encoding with testing mode
+[       OK ] PolarEncoderMultiDCITest.MultiDCITestingModeTest (3 ms)
+[ RUN      ] PolarEncoderMultiDCITest.MultiDCI_MinCodedBitsClampPath
+[       OK ] PolarEncoderMultiDCITest.MultiDCI_MinCodedBitsClampPath (3 ms)
+[ RUN      ] PolarEncoderMultiDCITest.MultiDCI_CorrectnessAgainstSingleDCIReference
+[       OK ] PolarEncoderMultiDCITest.MultiDCI_CorrectnessAgainstSingleDCIReference (4 ms)
+[----------] 4 tests from PolarEncoderMultiDCITest (30 ms total)
+
+[----------] 2 tests from PolarEncoderMultiSSBTest
+[ RUN      ] PolarEncoderMultiSSBTest.MultiSSBEncodingTest
+Testing Multi-SSB encoding with 1 SSBs
+Testing Multi-SSB encoding with 2 SSBs
+Testing Multi-SSB encoding with 4 SSBs
+Testing Multi-SSB encoding with 8 SSBs
+Testing Multi-SSB encoding with 16 SSBs
+Testing Multi-SSB encoding with 32 SSBs
+Testing Multi-SSB encoding with 64 SSBs
+[       OK ] PolarEncoderMultiSSBTest.MultiSSBEncodingTest (4 ms)
+[ RUN      ] PolarEncoderMultiSSBTest.MultiSSB_CorrectnessAgainstSingleReference
+[       OK ] PolarEncoderMultiSSBTest.MultiSSB_CorrectnessAgainstSingleReference (1 ms)
+[----------] 2 tests from PolarEncoderMultiSSBTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 4 test suites ran. (2267 ms total)
+[  PASSED  ] 18 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] PolarEncoderKernelSelect.MultiDCI_InternalNullLaunchCfg_CoversLine1144_WhenExported
+23:44:05.861515 embed_pdcch_tf_signal.cu:740 ERR[232   ] [AERIAL_CUPHY_EVENT] [CUPHY.PDCCH_TX] cuphyPdcchPipelinePrepare() got nullptr(s)

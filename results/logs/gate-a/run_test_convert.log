@@ -1,0 +1,28 @@
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from Convert
+[ RUN      ] Convert.ToBits
+[       OK ] Convert.ToBits (820 ms)
+[ RUN      ] Convert.BitCopySubset
+[       OK ] Convert.BitCopySubset (8 ms)
+[ RUN      ] Convert.ToBitsset
+[       OK ] Convert.ToBitsset (15 ms)
+[ RUN      ] Convert.FromBits
+[       OK ] Convert.FromBits (15 ms)
+[ RUN      ] Convert.RealNumbers
+[       OK ] Convert.RealNumbers (51 ms)
+[ RUN      ] Convert.ComplexNumbers
+[       OK ] Convert.ComplexNumbers (34 ms)
+[ RUN      ] Convert.ErrorCases
+[       OK ] Convert.ErrorCases (26 ms)
+[ RUN      ] Convert.ErrorCases_invalid_type
+[       OK ] Convert.ErrorCases_invalid_type (0 ms)
+[ RUN      ] Convert.SameTypeComplex
+[       OK ] Convert.SameTypeComplex (6 ms)
+[ RUN      ] Convert.SameTypeReal
+[       OK ] Convert.SameTypeReal (5 ms)
+[----------] 10 tests from Convert (984 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (984 ms total)
+[  PASSED  ] 10 tests.

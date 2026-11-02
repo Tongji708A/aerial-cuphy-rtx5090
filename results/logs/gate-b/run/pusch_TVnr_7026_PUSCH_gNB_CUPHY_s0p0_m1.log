@@ -1,0 +1,40 @@
+02:40:16.397063 CON 219 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:40:16.398559 CON 221 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 5
+02:40:16.430106 CON 219 0 [NVLOG.CPP] Output log file path /tmp/pusch.log
+File extension: h5
+PuschRx Pipeline[0]: Failed to set scheduling algo pid 226, prio 99, return code -1: err Operation not permitted
+PuschRx Pipeline[0]: pid 226 set affinity to CPU 0
+PuschRx Pipeline[0]: Wait for start-sync point
+Run config: GPU Id 0, # of pipelines 1
+PuschRx Pipeline[0]: start-syncpoint hit
+PuschRx Pipeline[0]: For transmission 1 using filename /work/tvgen/GPU_test_input/TVnr_7026_PUSCH_gNB_CUPHY_s0p0.h5
+02:40:17.131102 CON 226 0 [CUPHY.PUSCH_RX] LDPC throughput mode enabled
+02:40:17.160576 CON 226 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 696.600 MiB for cuPHY PUSCH channel object (0x723658058240).
+02:40:17.160590 CON 226 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+slot 0 ---------------------------------------------------------------
+PuschRx Pipeline[00]: Metric - Throughput (w/ GPU runtime only): 00.0007 Gbps (encoded input bits 56) 
+PuschRx Pipeline[00]: Metric - GPU Time usec (using CUDA events, over 0002 runs): Run-P1 00.4000 (00.3840, 00.4160) Run-P2 74.0160 (72.3200, 75.7120) Run-P3 02.9600 (01.6320, 04.2880) Setup-P1 03.6800 (03.3600, 04.0000) Setup-P2 84.4480 (50.4320, 118.4640) Total 165.5040
+PuschRx Pipeline[00]: Metric - CPU Time usec (using wall clock w/ 1 ms delay kernel, over 0002 runs): Run-P1 00.7245 (00.0770, 01.3720) Run-P2 24.2285 (16.3350, 32.1220) Run-P3 15.0570 (09.4970, 20.6170) Setup-P1 16.7050 (16.4790, 16.9310) Setup-P2 290.2995 (32.9870, 547.6120) Total 347.0145
+PuschRx Pipeline[00]: Total time usec GPU (CUDA event) 165.5040 CPU (wall clock) 347.0145
+PuschRx Pipeline[00]: Debug - start-event record to notify delay in usec (wall clock) 00.8235 (00.2880, 01.3590)
+PuschRx Pipeline[00]: Debug - start-event notify to pipelne launch start delay in usec (wall clock) 325.7625 (61.4900, 590.0350)
+dim[0]: resDim 1 refDim 1
+[0][0][0][0] refScaler 16.806528 cuphyScaler 16.806528
+dim[0]: resDim 1 refDim 1
+[0][0][0][0] refScaler -0.020635 cuphyScaler -0.020634
+dim[0]: resDim 1 refDim 1
+[0][0][0][0] refScaler 38.742031 cuphyScaler 38.742050
+PuschRx Pipeline[0]: Joining worker thread
+02:40:17.243991 CON 226 0 [CUPHY.PUSCH_RX] Cell # 0 : TbIdx: 0 Metric - Block Error Rate      : 0.0000 (Error CBs 0, Mismatched CBs 0, MismatchedCRC CBs 0, Total CBs 1)
+02:40:17.243993 CON 226 0 [CUPHY.PUSCH_RX] Cell # 0 :          Metric - TB CRC Error      :(MismatchedCRC TBs 0, Total TBs 1)
+02:40:17.243993 CON 226 0 [CUPHY.PUSCH_RX] Cell # 0 : No UCI
+02:40:17.244059 CON 226 0 [CUPHY.PUSCH_RX] RSSI reference comparison SNR inf     for UEGRP[0]
+02:40:17.244079 CON 226 0 [CUPHY.PUSCH_RX] RSRP reference comparison SNR 85.0696
+02:40:17.244096 CON 226 0 [CUPHY.PUSCH_RX] RSRP reference comparison difference (dB) 1.1511147022247314e-06
+02:40:17.244111 CON 226 0 [CUPHY.PUSCH_RX] NoiseVarPreEqIntf interface reference comparison SNR 126.1597
+02:40:17.244126 CON 226 0 [CUPHY.PUSCH_RX] SINR PreEq interface reference comparison SNR 126.1550
+02:40:17.244141 CON 226 0 [CUPHY.PUSCH_RX] NoiseVarPostEqIntf interface reference comparison SNR inf    
+02:40:17.244155 CON 226 0 [CUPHY.PUSCH_RX] SINR PostEq interface reference comparison SNR inf    
+02:40:17.249542 CON 219 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [cuphy_ex_pusch_] thread on core 3, last file path is /tmp/pusch.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

@@ -1,0 +1,17 @@
+02:41:45.779200 CON 225 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:41:45.779427 CON 226 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 2
+02:41:45.810856 CON 225 0 [NVLOG.CPP] Output log file path /tmp/pucch.log
+02:41:46.585891 CON 225 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 3.391 MiB for cuPHY PUCCH channel object (0x124522e0).
+02:41:46.586044 CON 225 0 [CUPHY.PUCCH_RX] 
+ PUCCH format 0: found 0 mismatches out of 1 Ucis
+ PUCCH format 1: found 0 mismatches out of 0 Ucis
+ PUCCH format 2: found 0 mismatches out of 0 Ucis
+ PUCCH format 3: found 0 mismatches out of 0 Ucis
+
+
+02:41:46.586086 CON 225 0 [CUPHY.PUCCH_RX] Timing results in stream mode, format: avg (min, max) 
+02:41:46.586086 CON 225 0 [CUPHY.PUCCH_RX] PucchRx Pipeline[00]: Metric - GPU Time usec (using CUDA events, over 0002 runs): Run   20.3840 (   8.2880,   32.4800) Setup   24.9120 (  13.6640,   36.1600) Total   45.2960
+02:41:46.586087 CON 225 0 [CUPHY.PUCCH_RX] PucchRx Pipeline[00]: Metric - CPU Time usec (using wall clock,  over 0002 runs): Run   21.7050 (   9.2110,   34.1990) Setup   12.5265 (   4.1470,   20.9060) Total   34.2315
+02:41:46.586893 CON 225 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [cuphy_ex_pucch_] thread on core 3, last file path is /tmp/pucch.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

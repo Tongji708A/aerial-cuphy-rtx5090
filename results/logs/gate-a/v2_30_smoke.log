@@ -1,0 +1,21 @@
+=== arch
+## /opt/aerial/src/build.sm120/cuPHY/src/cuphy/libcuphy.so
+     65 sm_120
+## /opt/aerial/src/build.sm120/cuPHY/examples/ss/testSS
+      1 sm_120
+=== smoke
+test_elementwise	PASS	rc=0 passed=6 failed=0
+test_fill	FAIL	rc=1 passed=1 failed=1
+/bin/bash: line 7:   114 Segmentation fault      timeout 900 $b > /work/logs/v2/run_$t.log 2>&1
+test_tile	FAIL	rc=139 passed=? failed=0
+test_rng	PASS	rc=0 passed=5 failed=0
+test_reduction	PASS	rc=0 passed=8 failed=0
+test_convert	PASS	rc=0 passed=10 failed=0
+crcTest	FAIL	rc=1 passed=8 failed=1
+test_polar_encoder	PASS	rc=0 passed=18 failed=0
+test_polar_decoder	PASS	rc=0 passed=12 failed=0
+testModulationMapper	PASS	rc=0 passed=18 failed=0
+tensor_desc_tests	PASS	rc=0 passed=8 failed=0
+cuphy_api_tests	PASS	rc=0 passed=9 failed=0
+cuphy_hpp_tests	PASS	rc=0 passed=12 failed=0
+test_ldpc_internal_rc	PASS	rc=0 passed=5 failed=0

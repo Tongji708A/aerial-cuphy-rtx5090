@@ -1,0 +1,23 @@
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 5 tests from ElementWise
+[ RUN      ] ElementWise.Add
+[       OK ] ElementWise.Add (919 ms)
+[ RUN      ] ElementWise.XOR
+[       OK ] ElementWise.XOR (1 ms)
+[ RUN      ] ElementWise.XOR_Partial
+[       OK ] ElementWise.XOR_Partial (3 ms)
+[ RUN      ] ElementWise.BroadcastBit
+[       OK ] ElementWise.BroadcastBit (1 ms)
+[ RUN      ] ElementWise.Broadcast
+[       OK ] ElementWise.Broadcast (21 ms)
+[----------] 5 tests from ElementWise (947 ms total)
+
+[----------] 1 test from TensorElementwiseUnary
+[ RUN      ] TensorElementwiseUnary.UnaryOperations
+[       OK ] TensorElementwiseUnary.UnaryOperations (11 ms)
+[----------] 1 test from TensorElementwiseUnary (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (959 ms total)
+[  PASSED  ] 6 tests.

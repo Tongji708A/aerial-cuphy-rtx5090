@@ -1,0 +1,6 @@
+Note: Google Test filter = Tile.InternalError
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Tile
+[ RUN      ] Tile.InternalError
+timeout: the monitored command dumped core

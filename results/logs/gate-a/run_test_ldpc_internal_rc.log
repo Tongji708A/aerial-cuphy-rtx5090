@@ -1,0 +1,18 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LDPCInternalHalf
+[ RUN      ] LDPCInternalHalf.RowContext_fp16
+[       OK ] LDPCInternalHalf.RowContext_fp16 (282 ms)
+[ RUN      ] LDPCInternalHalf.RowContext_fp16x2
+[       OK ] LDPCInternalHalf.RowContext_fp16x2 (11 ms)
+[ RUN      ] LDPCInternalHalf.BoxPlus_fp16
+[       OK ] LDPCInternalHalf.BoxPlus_fp16 (12 ms)
+[ RUN      ] LDPCInternalHalf.RowContext_BoxPlus_fp16x2
+[       OK ] LDPCInternalHalf.RowContext_BoxPlus_fp16x2 (11 ms)
+[ RUN      ] LDPCInternalHalf.DotProductSigns
+[       OK ] LDPCInternalHalf.DotProductSigns (2 ms)
+[----------] 5 tests from LDPCInternalHalf (321 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (321 ms total)
+[  PASSED  ] 5 tests.

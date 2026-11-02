@@ -1,0 +1,26 @@
+02:42:40.177492 CON 315 0 [NVLOG.CPP] Using /opt/aerial/src/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+02:42:40.180605 CON 316 0 [NVLOG.EXIT_HANDLER] [exit_watchdog] thread started on core 0
+02:42:40.219477 CON 315 0 [NVLOG.CPP] Output log file path /tmp/prach.log
+02:42:40.449886 CON 315 0 [CUPHY.PRACH_RX] File extension: h5
+02:42:40.449897 CON 315 0 [CUPHY.PRACH_RX] number of cells: 1
+02:42:40.449897 CON 315 0 [CUPHY.PRACH_RX] File: /work/tvgen/GPU_test_input/TVnr_5015_PRACH_gNB_CUPHY_s1p0.h5
+02:42:40.993984 CON 315 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 0.024 MiB for cuPHY PRACH channel object (0x2579aae0).
+02:42:40.994023 CON 315 0 [CUPHY.PRACH_RX] Timing 1 PRACH pipeline(s) Run(). 
+02:42:40.994025 CON 315 0 [CUPHY.PRACH_RX] - NB: Allocations, setup processing not included.
+
+02:42:41.004226 CON 315 0 [CUPHY.PRACH_RX] ---------------------------------------------------------------
+02:42:41.004227 CON 315 0 [CUPHY.PRACH_RX] Comparing test vectors ...
+02:42:41.004228 CON 315 0 [CUPHY.PRACH_RX] Comparing PRACH occasion: 0
+02:42:41.004277 CON 315 0 [CUPHY.PRACH_RX] prmbIndex - matlab =      2 vs. gpu =      2
+02:42:41.004278 CON 315 0 [CUPHY.PRACH_RX] prmbDelay - matlab = 0.0000 vs. gpu = 0.0000
+02:42:41.004278 CON 315 0 [CUPHY.PRACH_RX] prmbPower - matlab = 0.0974 vs. gpu = 0.0973
+02:42:41.004296 CON 315 0 [CUPHY.PRACH_RX] interference - matlab = -32.2876 vs. gpu = -32.2900
+02:42:41.004296 CON 315 0 [CUPHY.PRACH_RX] rssi - matlab = -10.1541 vs. gpu = -10.1563
+02:42:41.004297 CON 315 0 [CUPHY.PRACH_RX] ant rssi - matlab = -10.1541 vs. gpu = -10.1562
+02:42:41.004298 CON 315 0 [CUPHY.PRACH_RX] ant rssi - matlab = -10.1541 vs. gpu = -10.1563
+02:42:41.004298 CON 315 0 [CUPHY.PRACH_RX] ========> Test PASS
+02:42:41.014352 CON 315 0 [CUPHY.PRACH_RX] Slot # 0,  PRACH pipeline(s): 28.00 us (avg. over 2 iterations)
+02:42:41.014353 CON 315 0 [CUPHY.PRACH_RX] --> Cell # 0 : 25.58 us (avg over 2 iterations)
+02:42:41.025376 CON 315 0 [NVLOG.CPP] nvlog_fmtlog_close: closing FMT log from [prach_receiver_] thread on core 2, last file path is /tmp/prach.log
+Exiting bg_fmtlog_collector - log queue ever was full: 0
+nvlog_fmtlog_close: FMT log closed

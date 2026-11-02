@@ -1,0 +1,25 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from Tile
+[ RUN      ] Tile.Basic2D
+[       OK ] Tile.Basic2D (779 ms)
+[ RUN      ] Tile.LargeElementSizes
+[       OK ] Tile.LargeElementSizes (15 ms)
+[ RUN      ] Tile.BitTensor
+[       OK ] Tile.BitTensor (6 ms)
+[ RUN      ] Tile.SizeMismatch
+[       OK ] Tile.SizeMismatch (5 ms)
+[ RUN      ] Tile.InternalError
+/opt/aerial/src/cuPHY/test/tile/test_tile.cpp:373: Skipped
+destroyed-stream UB test; set CUPHY_TEST_UB_STREAM=1 to run
+
+[  SKIPPED ] Tile.InternalError (0 ms)
+[ RUN      ] Tile.UnsupportedElementSize
+[       OK ] Tile.UnsupportedElementSize (0 ms)
+[----------] 6 tests from Tile (808 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (808 ms total)
+[  PASSED  ] 5 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] Tile.InternalError

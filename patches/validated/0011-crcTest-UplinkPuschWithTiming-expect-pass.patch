@@ -1,0 +1,14 @@
+--- a/cuPHY/src/cuphy/crc/crcTest.cu
++++ b/cuPHY/src/cuphy/crc/crcTest.cu
+@@ -1261,7 +1261,10 @@
+ {
+     // Test with timing enabled
+     int result = CRC_GPU_UPLINK_PUSCH_TEST(true);
+-    EXPECT_EQ(result, 0) << "CRC test with timing enabled failed";
++    // OpenLab 0011: upstream expected 0 (i.e. the CB/TB check failing) because legacy
++    // crc::launch() left schUserIdxs uninitialised (see 0008). With 0008 the decode is
++    // correct, so the timed run must pass like CRC_GPU_UPLINK_PUSCH.24B_24A.
++    EXPECT_EQ(result, 1) << "CRC test with timing enabled failed";
+ }
+ 
+ TEST(PuschRxCrcDecodeTest, SetupFunction)

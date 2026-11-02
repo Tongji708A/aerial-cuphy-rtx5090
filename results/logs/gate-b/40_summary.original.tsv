@@ -1,0 +1,209 @@
+channel	mode	tv	result	detail
+ssb	m0	TVnr_1001_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1001_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1002_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1002_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1003_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1003_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1004_SSB_gNB_CUPHY_s10p0	PASS	rescored
+ssb	m1	TVnr_1004_SSB_gNB_CUPHY_s10p0	PASS	rescored
+ssb	m0	TVnr_1005_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1005_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1006_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1006_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1007_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1007_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1008_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1008_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1009_SSB_gNB_CUPHY_s3p0	PASS	rescored
+ssb	m1	TVnr_1009_SSB_gNB_CUPHY_s3p0	PASS	rescored
+ssb	m0	TVnr_1010_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1010_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1011_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1011_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1012_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m1	TVnr_1012_SSB_gNB_CUPHY_s0p0	PASS	rescored
+ssb	m0	TVnr_1101_SSB_gNB_CUPHY_s6p0	PASS	rescored
+ssb	m1	TVnr_1101_SSB_gNB_CUPHY_s6p0	PASS	rescored
+ssb	m0	TVnr_1102_SSB_gNB_CUPHY_s2p0	PASS	rescored
+ssb	m1	TVnr_1102_SSB_gNB_CUPHY_s2p0	PASS	rescored
+ssb	m0	TVnr_1103_SSB_gNB_CUPHY_s5p1	PASS	rescored
+ssb	m1	TVnr_1103_SSB_gNB_CUPHY_s5p1	PASS	rescored
+ssb	m0	TVnr_1104_SSB_gNB_CUPHY_s3p1	PASS	rescored
+ssb	m1	TVnr_1104_SSB_gNB_CUPHY_s3p1	PASS	rescored
+pdsch	g0	TVnr_3001_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 63.74 us
+pdsch	g1	TVnr_3001_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 40.50 us
+pdsch	g0	TVnr_3002_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 54.21 us
+pdsch	g1	TVnr_3002_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 44.08 us
+pdsch	g0	TVnr_3003_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 50.91 us
+pdsch	g1	TVnr_3003_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 36.75 us
+pdsch	g0	TVnr_3004_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 60.11 us
+pdsch	g1	TVnr_3004_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 25.95 us
+pdsch	g0	TVnr_3005_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 49.18 us
+pdsch	g1	TVnr_3005_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 26.37 us
+pdsch	g0	TVnr_3006_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 57.60 us
+pdsch	g1	TVnr_3006_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 36.91 us
+pdsch	g0	TVnr_3007_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 60.08 us
+pdsch	g1	TVnr_3007_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 28.38 us
+pdsch	g0	TVnr_3008_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 71.98 us
+pdsch	g1	TVnr_3008_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 40.56 us
+pdsch	g0	TVnr_3009_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 58.72 us
+pdsch	g1	TVnr_3009_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 30.00 us
+pdsch	g0	TVnr_3010_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 59.87 us
+pdsch	g1	TVnr_3010_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 28.77 us
+pdsch	g0	TVnr_3011_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 60.26 us
+pdsch	g1	TVnr_3011_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 43.33 us
+pdsch	g0	TVnr_3012_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 71.78 us
+pdsch	g1	TVnr_3012_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 36.11 us
+pdsch	g0	TVnr_3013_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 51.63 us
+pdsch	g1	TVnr_3013_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 35.10 us
+pdsch	g0	TVnr_3014_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 59.54 us
+pdsch	g1	TVnr_3014_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 30.35 us
+pdsch	g0	TVnr_3015_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 64.53 us
+pdsch	g1	TVnr_3015_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 36.35 us
+pdsch	g0	TVnr_3018_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 51.92 us
+pdsch	g1	TVnr_3018_PDSCH_gNB_CUPHY_s0p0	PASS	DL pipeline: 31.22 us
+pdcch	m0	TVnr_2001_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.57 us
+pdcch	m1	TVnr_2001_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.05 us
+pdcch	m0	TVnr_2002_PDCCH_gNB_CUPHY_s1p0	PASS	GPU-run only: 14.69 us
+pdcch	m1	TVnr_2002_PDCCH_gNB_CUPHY_s1p0	PASS	GPU-run only: 13.05 us
+pdcch	m0	TVnr_2003_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 15.27 us
+pdcch	m1	TVnr_2003_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.05 us
+pdcch	m0	TVnr_2004_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 15.51 us
+pdcch	m1	TVnr_2004_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.46 us
+pdcch	m0	TVnr_2005_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.57 us
+pdcch	m1	TVnr_2005_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.06 us
+pdcch	m0	TVnr_2006_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.69 us
+pdcch	m1	TVnr_2006_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.06 us
+pdcch	m0	TVnr_2007_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.98 us
+pdcch	m1	TVnr_2007_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.05 us
+pdcch	m0	TVnr_2008_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.57 us
+pdcch	m1	TVnr_2008_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.25 us
+pdcch	m0	TVnr_2009_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.57 us
+pdcch	m1	TVnr_2009_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.12 us
+pdcch	m0	TVnr_2010_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.69 us
+pdcch	m1	TVnr_2010_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.47 us
+pdcch	m0	TVnr_2011_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.41 us
+pdcch	m1	TVnr_2011_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.05 us
+pdcch	m0	TVnr_2012_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.69 us
+pdcch	m1	TVnr_2012_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.87 us
+pdcch	m0	TVnr_2013_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.44 us
+pdcch	m1	TVnr_2013_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.20 us
+pdcch	m0	TVnr_2014_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.69 us
+pdcch	m1	TVnr_2014_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 12.95 us
+pdcch	m0	TVnr_2015_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.58 us
+pdcch	m1	TVnr_2015_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 13.35 us
+pdcch	m0	TVnr_2016_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 14.59 us
+pdcch	m1	TVnr_2016_PDCCH_gNB_CUPHY_s0p0	PASS	GPU-run only: 12.91 us
+prach	m0	TVnr_5001_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5001_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5002_PRACH_gNB_CUPHY_s0p0	PASS	rescored
+prach	m1	TVnr_5002_PRACH_gNB_CUPHY_s0p0	PASS	rescored
+prach	m0	TVnr_5003_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5003_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5004_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5004_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5005_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5005_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5006_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5006_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5007_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5007_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5008_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5008_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5009_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5009_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5010_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5010_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5011_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5011_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5012_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5012_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5013_PRACH_gNB_CUPHY_s1p3	PASS	rescored
+prach	m1	TVnr_5013_PRACH_gNB_CUPHY_s1p3	PASS	rescored
+prach	m0	TVnr_5014_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5014_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5015_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5015_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m0	TVnr_5016_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+prach	m1	TVnr_5016_PRACH_gNB_CUPHY_s1p0	PASS	rescored
+csirs	m0	TVnr_4001_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4002_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4003_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4004_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4005_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4006_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4007_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4008_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4009_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4010_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4011_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4012_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4013_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4014_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4015_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+csirs	m0	TVnr_4016_CSIRS_gNB_CUPHY_s0p0	PASS	rescored
+pusch	m0	TVnr_7018_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7018_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7019_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7019_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7020_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7020_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7021_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7021_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7022_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7022_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7023_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7023_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7026_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7026_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7027_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7027_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7028_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7028_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7029_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7029_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7030_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7030_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7031_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7031_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7033_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7033_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7034_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7034_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7035_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7035_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m0	TVnr_7036_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pusch	m1	TVnr_7036_PUSCH_gNB_CUPHY_s0p0	PASS	rescored_bler
+pucch	m0	TVnr_6001_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6001_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6002_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6002_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6003_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6003_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6004_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6004_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6005_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6005_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6006_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6006_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6007_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6007_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6008_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6008_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6009_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6009_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6010_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6010_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6011_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6011_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6012_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6012_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6013_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6013_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6014_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6014_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6015_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6015_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m0	TVnr_6016_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
+pucch	m1	TVnr_6016_PUCCH_F0_gNB_CUPHY_s0p1	PASS	rescored
